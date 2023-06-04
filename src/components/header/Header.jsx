@@ -6,9 +6,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" variant="dark" className="headercl">
       <Container>
-        <Navbar.Brand href="#home">vanguyendev</Navbar.Brand>
+        <Navbar.Brand className="titlenav" href="#home">
+          vanguyendev
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -17,17 +19,15 @@ const Header = () => {
 
             <Nav.Link href="#contact">Contact</Nav.Link>
 
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown title="Courses" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">HTML</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">CSS</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">JavaScript</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">React JS</NavDropdown.Item>
+
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
+              <NavDropdown.Item href="#action/3.4">Java</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
