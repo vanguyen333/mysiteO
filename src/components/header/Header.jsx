@@ -4,14 +4,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { logoBlack } from "assets/logoBlack.svg";
+// import { logoBlack } from "../assets";
 
 const Header = () => {
   return (
     <Navbar expand="lg" variant="dark" className="headercl">
       <Container>
         <Navbar.Brand className="titlenav" href="#home">
-          <img src={logoBlack} />
+          {/* <img src={logoBlack} /> */}
           vanguyendev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
