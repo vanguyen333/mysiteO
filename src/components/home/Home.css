@@ -7,3 +7,9 @@ h1 {
 .homecl h1 {
   font-size: 30px;
 }
+.homecl {
+  margin: 33px;
+  width: full;
+  height: 500px;
+  background-color: rgb(197, 204, 252);
+}
