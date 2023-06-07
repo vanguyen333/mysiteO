@@ -6,6 +6,8 @@
   color: white;
 }
 .logome {
-  height: 30px;
+  height: 37px;
   display: inline-block;
+  border: none;
+  padding-right: 10px;
 }

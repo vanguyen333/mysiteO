@@ -13,8 +13,8 @@ const Header = () => {
     <Navbar expand="lg" variant="dark" className="headercl">
       <Container>
         <Navbar.Brand className="titlenav" href="#home">
-          <img className="logome" src="public/imgs/v.png" />
-          anguyendev
+          <img className="logome" src="public/imgs/v.jpg" />
+          vanguyendev
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
