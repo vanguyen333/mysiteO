@@ -1,6 +1,6 @@
 .headercl {
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
-  margin: 30px;
+  /* margin: 30px; */
 }
 .titlenav {
   color: white;
@@ -10,4 +10,7 @@
   display: inline-block;
   border: none;
   padding-right: 10px;
+}
+.waterhd {
+  border: none;
 }

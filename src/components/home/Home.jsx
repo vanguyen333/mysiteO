@@ -7,28 +7,27 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <Container>
-      <div className="homecl">
-        <table>
-          <tr>
-            <th>
-              <img
+    <div className="homecl">
+      <table>
+        <tr>
+          <th>
+            {/* <img
                 src="public/imgs/appleDesktop.jpg"
                 className="lady"
                 alt="laptp-lady"
-              />
-            </th>
-            <th>
-              <h1>Hi, I'm Van.</h1>
-              <h2>
-                I am a full stack developer. I develop applications, software
-                and web applications.
-              </h2>
-            </th>
-          </tr>
-        </table>
-      </div>
-    </Container>
+              /> */}
+          </th>
+          <th>
+            <h1 className=" font-sans sans-serif font-serif hover:system-ui text-[#304345] text-7xl ">
+              Education
+            </h1>
+            <h2 className="text-xl text-[#50959E]">
+              Algonquin College - Ottawa.
+            </h2>
+          </th>
+        </tr>
+      </table>
+    </div>
 
     // <Container className="homecl">
     //   <div className="jumbotron">

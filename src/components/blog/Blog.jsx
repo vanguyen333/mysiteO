@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div>
       <h1>My Blog</h1>
-      <img src="public/imgs/tulip.png" />
+      {/* <img src="public/imgs/tulip.png" /> */}
     </div>
   );
 };
