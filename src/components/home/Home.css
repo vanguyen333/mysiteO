@@ -1,15 +1,30 @@
-.jumbotron {
-  margin: 20px;
-}
 h1 {
   font-size: 500;
 }
+
 .homecl h1 {
-  font-size: 30px;
+  /* font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Quicksand", sans-serif; */
+  font-size: 48px;
+  font-family: Canela, sans-serif;
+  color: #232d41;
+  font-weight: 400px;
+  font-weight: 500;
+  /* color: rgb(28, 29, 105);*/
 }
+.homecl h2 {
+  font-size: 15px;
+  color: rgb(28, 29, 105);
+}
+
 .homecl {
   margin: 33px;
   width: full;
-  height: 500px;
+  height: 430px;
   background-color: rgb(197, 204, 252);
+}
+.lady {
+  height: 300px;
+  padding: 33px;
+  border: none;
 }
