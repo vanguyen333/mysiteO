@@ -41,7 +41,7 @@ const Header = () => {
         </Container>
       </Navbar>
       <div className="homecl">
-        <h1 className="Recoleta sans-serif font-serif text-center hover:system-ui text-[#d6f4f8] text-7xl ">
+        <h1 className=" Recoleta sans-serif font-serif text-center hover:system-ui text-[#d6f4f8] text-7xl ">
           Looking for a developer?
         </h1>
         <h2 className="text-xl text-[#ffffff] text-center py-5">

@@ -5,10 +5,19 @@ h1 {
 .homecl {
   width: full;
   height: 430px;
-  /* background-color: #fdf8f5; */
 }
 /* .lady {
   height: 300px;
   padding: 33px;
   border: none;
 } */
+.homeh1 {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.cap {
+  margin-top: 110px;
+  border: none;
+  height: 90px;
+  margin-left: 250px;
+}

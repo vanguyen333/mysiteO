@@ -11,15 +11,11 @@ const Home = () => {
       <table>
         <tr>
           <th>
-            {/* <img
-                src="public/imgs/appleDesktop.jpg"
-                className="lady"
-                alt="laptp-lady"
-              /> */}
+            <img className="cap" src="public/imgs/graduation.png"></img>
           </th>
           <th>
-            <h1 className=" font-sans sans-serif font-serif hover:system-ui text-[#304345] text-7xl ">
-              .
+            <h1 className="homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-6xl ">
+              Education
             </h1>
             <h2 className="text-xl text-[#50959E]">.</h2>
           </th>
