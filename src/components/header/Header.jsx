@@ -10,7 +10,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
-    <div className="headercl w-full h-96">
+    <div className="headercl w-full h-120">
       <Navbar expand="lg" variant="dark">
         <Container>
           <Navbar.Brand className="titlenav" href="#home">
@@ -41,7 +41,7 @@ const Header = () => {
         </Container>
       </Navbar>
       <div className="homecl">
-        <h1 className=" Recoleta sans-serif font-serif text-center hover:system-ui text-[#d6f4f8] text-7xl ">
+        <h1 className=" h1headercl font-serif ui-serif font-semibold text-center hover:system-ui text-[#d6f4f8] text-6xl ">
           Looking for a developer?
         </h1>
         <h2 className="text-xl text-[#ffffff] text-center py-5">

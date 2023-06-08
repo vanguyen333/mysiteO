@@ -14,7 +14,7 @@ const Home = () => {
             <img className="cap" src="public/imgs/graduation.png"></img>
           </th>
           <th>
-            <h1 className="homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-6xl ">
+            <h1 className="homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
               Education
             </h1>
             <h2 className="text-xl text-[#50959E]">.</h2>
