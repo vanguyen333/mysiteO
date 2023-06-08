@@ -19,11 +19,9 @@ const Home = () => {
           </th>
           <th>
             <h1 className=" font-sans sans-serif font-serif hover:system-ui text-[#304345] text-7xl ">
-              Education
+              .
             </h1>
-            <h2 className="text-xl text-[#50959E]">
-              Algonquin College - Ottawa.
-            </h2>
+            <h2 className="text-xl text-[#50959E]">.</h2>
           </th>
         </tr>
       </table>
