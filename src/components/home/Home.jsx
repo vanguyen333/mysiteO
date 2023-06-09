@@ -8,19 +8,39 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homecl">
-      <table>
-        <tr>
-          <th>
-            <img className="cap" src="public/imgs/graduation.png"></img>
-          </th>
-          <th>
-            <h1 className="homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
-              Education
-            </h1>
-            <h2 className="text-xl text-[#50959E]">.</h2>
-          </th>
-        </tr>
-      </table>
+      <div className="home">
+        <table>
+          <tr>
+            <th>
+              <img className="cap" src="public/imgs/graduation.png"></img>
+            </th>
+            <th>
+              <h1 className=" right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
+                Education
+              </h1>
+            </th>
+          </tr>
+          <tr>
+            <td></td>
+            <td className="right">
+              <h2 className="  text-xl text-[#50959E]">Sept 2021 – May 2023</h2>
+              <h2>Algonquin College, Ottawa, ON - Computer Programming</h2>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td className="right">
+              <h2 className="  text-xl text-[#50959E]">
+                Sept 2009 – Sept 2012
+              </h2>
+              <h2>
+                Hung Vuong University, Ho Chi Minh City, Viet Nam - English
+                Language
+              </h2>
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
 
     // <Container className="homecl">
