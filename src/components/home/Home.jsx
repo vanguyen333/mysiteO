@@ -1,4 +1,6 @@
 import { Container } from "react-bootstrap";
+import { useState } from "react";
+import React from "react";
 import "./Home.css";
 // import React from "react";
 // import <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,7 +10,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homecl">
-      {/* Introduction */}
+      {/* Introduction
       <div className="intro w-full h-96">
         <h1 className=" right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
           Introduction
@@ -19,7 +21,7 @@ const Home = () => {
           like JavaScript, ReactJS, softwares or Android Apps using Java. I love
           coding to create user-friendly applications.
         </p>
-      </div>
+      </div> */}
       {/* education */}
       <div className="education h-96">
         <table>
@@ -59,24 +61,27 @@ const Home = () => {
           </tr>
         </table>
       </div>
+      {/* Coding languages */}
+      <div className=" container languages">
+        <h1 className="text-center text-5xl  text-[#434e58] w-full">Skills</h1>
+        <div className="carousel">
+          <img src="public/imgs/1.png" alt="react" className="h-80" />
+          <img src="public/imgs/2.png" alt="react" className="h-80" />
+          <img src="public/imgs/3.png" alt="react" className="h-80" />
+          <img src="public/imgs/4.png" alt="react" className="h-80" />
+          <img src="public/imgs/5.png" alt="react" className="h-80" />
+          <img src="public/imgs/6.png" alt="react" className="h-80" />
+          <img src="public/imgs/7.png" alt="react" className="h-80" />
+          <img src="public/imgs/8.png" alt="react" className="h-80" />
+          <img src="public/imgs/9.png" alt="react" className="h-80" />
+        </div>
+      </div>
+      {/* Projects */}
+      <div className="projects text-center">
+        <h1>Projects</h1>
+        <p>Lorem ipsum</p>
+      </div>
     </div>
-
-    // <Container className="homecl">
-    //   <div className="jumbotron">
-    //     <h1 className="display-4">Hi, I'm Van.</h1>
-    //     <p className="lead">
-    //       I develop web applications, softwares and applications.
-    //     </p>
-    //     <hr className="my-4" />
-    //     <p>
-    //       It uses utility classes for typography and spacing to space content
-    //       out within the larger container.
-    //     </p>
-    //     <a className="btn btn-primary btn-lg" href="#" role="button">
-    //       Learn more
-    //     </a>
-    //   </div>
-    // </Container>
   );
 };
 
