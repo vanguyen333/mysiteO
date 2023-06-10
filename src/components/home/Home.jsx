@@ -2,6 +2,9 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import React from "react";
 import "./Home.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
 // import React from "react";
 // import <link rel="preconnect" href="https://fonts.googleapis.com">
 // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +68,53 @@ const Home = () => {
       <div className=" container languages">
         <h1 className="text-center text-5xl  text-[#434e58] w-full">Skills</h1>
         <div className="carousel">
-          <img src="/imgs/1.png" alt="react" className="h-80" />
+          <Swiper
+            spaceBetween={3}
+            slidesPerView={4}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide>
+              {" "}
+              <img src="/imgs/1.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/imgs/2.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/imgs/3.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/4.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/5.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/6.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/7.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/8.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/imgs/9.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/imgs/10.png" alt="react" className="h-80" />
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/imgs/11.png" alt="react" className="h-80" />{" "}
+            </SwiperSlide>
+            ...
+          </Swiper>
+          {/* <img src="/imgs/1.png" alt="react" className="h-80" />
           <img src="/imgs/2.png" alt="react" className="h-80" />
           <img src="/imgs/3.png" alt="react" className="h-80" />
           <img src="/imgs/4.png" alt="react" className="h-80" />
@@ -75,8 +124,10 @@ const Home = () => {
           <img src="/imgs/8.png" alt="react" className="h-80" />
           <img src="/imgs/9.png" alt="react" className="h-80" />
           <img src="/imgs/10.png" alt="react" className="h-80" />
+          <img src="/imgs/11.png" alt="react" className="h-80" /> */}
         </div>
       </div>
+
       {/* Projects */}
       <div className="projects text-center">
         <h1>Projects</h1>
