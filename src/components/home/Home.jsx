@@ -65,15 +65,16 @@ const Home = () => {
       <div className=" container languages">
         <h1 className="text-center text-5xl  text-[#434e58] w-full">Skills</h1>
         <div className="carousel">
-          <img src="public/imgs/1.png" alt="react" className="h-80" />
-          <img src="public/imgs/2.png" alt="react" className="h-80" />
-          <img src="public/imgs/3.png" alt="react" className="h-80" />
-          <img src="public/imgs/4.png" alt="react" className="h-80" />
-          <img src="public/imgs/5.png" alt="react" className="h-80" />
-          <img src="public/imgs/6.png" alt="react" className="h-80" />
-          <img src="public/imgs/7.png" alt="react" className="h-80" />
-          <img src="public/imgs/8.png" alt="react" className="h-80" />
-          <img src="public/imgs/9.png" alt="react" className="h-80" />
+          <img src="/imgs/1.png" alt="react" className="h-80" />
+          <img src="/imgs/2.png" alt="react" className="h-80" />
+          <img src="/imgs/3.png" alt="react" className="h-80" />
+          <img src="/imgs/4.png" alt="react" className="h-80" />
+          <img src="/imgs/5.png" alt="react" className="h-80" />
+          <img src="/imgs/6.png" alt="react" className="h-80" />
+          <img src="/imgs/7.png" alt="react" className="h-80" />
+          <img src="/imgs/8.png" alt="react" className="h-80" />
+          <img src="/imgs/9.png" alt="react" className="h-80" />
+          <img src="/imgs/10.png" alt="react" className="h-80" />
         </div>
       </div>
       {/* Projects */}
