@@ -2,8 +2,9 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import React from "react";
 import "./Home.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // import React from "react";
 // import <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +12,17 @@ import "swiper/css";
 // <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Quicksand&display=swap" rel="stylesheet"></link>
 
 const Home = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  };
   return (
     <div className="homecl">
       {/* education */}
-      <div className="education  h-120 text-center">
+      <div className="education  h-120 text-center object-center">
         <h1 className=" font-bold homeh1 font-sans sans-serif font-serif hover:system-ui  text-5xl  text-[#434e58] ">
           <img
             className="pr-3 cap object-scale-down h-20 border-none"
@@ -45,69 +53,47 @@ const Home = () => {
         </h2>
       </div>
       {/* Coding languages */}
-      <div className=" container languages">
-        <h1 className="text-center text-5xl  text-[#434e58] w-full">Skills</h1>
-        <div className="carousel">
-          <Swiper
-            spaceBetween={3}
-            slidesPerView={4}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
-            <SwiperSlide>
-              {" "}
-              <img src="/imgs/1.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <img src="/imgs/2.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <img src="/imgs/3.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/4.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/5.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/6.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/7.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/8.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <img src="/imgs/9.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="/imgs/10.png" alt="react" className="h-80" />
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <img src="/imgs/11.png" alt="react" className="h-80" />{" "}
-            </SwiperSlide>
-            ...
-          </Swiper>
-          {/* <img src="/imgs/1.png" alt="react" className="h-80" />
-          <img src="/imgs/2.png" alt="react" className="h-80" />
-          <img src="/imgs/3.png" alt="react" className="h-80" />
-          <img src="/imgs/4.png" alt="react" className="h-80" />
-          <img src="/imgs/5.png" alt="react" className="h-80" />
-          <img src="/imgs/6.png" alt="react" className="h-80" />
-          <img src="/imgs/7.png" alt="react" className="h-80" />
-          <img src="/imgs/8.png" alt="react" className="h-80" />
-          <img src="/imgs/9.png" alt="react" className="h-80" />
-          <img src="/imgs/10.png" alt="react" className="h-80" />
-          <img src="/imgs/11.png" alt="react" className="h-80" /> */}
-        </div>
+      <div className="lang h-120 text-center">
+        <h1 className=" font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
+          Skills
+        </h1>
+        <Slider {...settings}>
+          <div>
+            <img className="h-80" src="imgs/1.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/2.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/3.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/4.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/5.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/6.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/7.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/8.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/9.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/10.png" alt="" />
+          </div>
+          <div>
+            <img className="h-80" src="imgs/11.png" alt="" />
+          </div>
+        </Slider>
       </div>
-
+      {/* <img className="h-80" src="imgs/1.png" alt="" /> */}
       {/* Projects */}
       <div className="projects text-center">
         <h1>Projects</h1>
