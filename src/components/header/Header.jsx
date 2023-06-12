@@ -19,7 +19,7 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto text-xl">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
 
@@ -44,7 +44,7 @@ const Header = () => {
         <h1 className=" h1headercl font-serif ui-serif font-semibold text-center hover:system-ui text-[#d6f4f8] text-6xl ">
           Looking for a developer?
         </h1>
-        <h2 className="text-xl text-[#ffffff] text-center py-5">
+        <h2 className="text-2xl text-[#ffffff] text-center py-5">
           I am a full stack developer. I develop applications, software and web
           applications.
         </h2>
