@@ -15,11 +15,11 @@ const Home = () => {
     <div className="homecl">
       {/* education */}
       <div className="education  h-120 text-center">
-        <h1 className=" font-bold right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
+        <h1 className=" font-bold homeh1 font-sans sans-serif font-serif hover:system-ui  text-5xl  text-[#434e58] ">
           <img
-            className=" cap object-scale-down h-20 border-none"
+            className="pr-3 cap object-scale-down h-20 border-none"
             src="public/imgs/graduation.png"
-          />{" "}
+          />
           Education
         </h1>
 
@@ -43,49 +43,6 @@ const Home = () => {
           Hung Vuong University, Ho Chi Minh City, Viet Nam -
           <b> English Language</b>
         </h2>
-
-        {/* <table>
-          <tr>
-            <th>
-              <img className="cap" src="public/imgs/graduation.png"></img>
-            </th>
-            <th>
-              <h1 className="  education right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
-                Education
-              </h1>
-            </th>
-          </tr>
-          <tr>
-            <td></td>
-            <td className="right">
-              <h2 className=" h2cl text-3xl text-[#4c9da8]">
-                <strong> Sept 2021 – May 2023</strong>
-              </h2>
-              <h2
-                className="text-2xl
-              "
-              >
-                Algonquin College, Ottawa, Ontario, Canada -
-                <b> Computer Programming</b>
-              </h2>
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td className="right">
-              <h2 className=" h2cl text-3xl text-[#4c9da8]">
-                <strong>Sept 2009 – Sept 2012</strong>
-              </h2>
-              <h2
-                className="text-2xl
-              "
-              >
-                Hung Vuong University, Ho Chi Minh City, Viet Nam -
-                <b> English Language</b>
-              </h2>
-            </td>
-          </tr>
-        </table> */}
       </div>
       {/* Coding languages */}
       <div className=" container languages">
