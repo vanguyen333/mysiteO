@@ -13,27 +13,44 @@ import "swiper/css";
 const Home = () => {
   return (
     <div className="homecl">
-      {/* Introduction
-      <div className="intro w-full h-96">
-        <h1 className=" right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
-          Introduction
-        </h1>
-        <p>
-          I am a passionate developer. I recently graduated from Algonquin
-          College majoring in Computer Programming. I build web applications
-          like JavaScript, ReactJS, softwares or Android Apps using Java. I love
-          coding to create user-friendly applications.
-        </p>
-      </div> */}
       {/* education */}
-      <div className="education h-96">
-        <table>
+      <div className="education  h-120 text-center">
+        <h1 className=" font-bold right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
+          <img
+            className=" cap object-scale-down h-20 border-none"
+            src="public/imgs/graduation.png"
+          />{" "}
+          Education
+        </h1>
+
+        <h2 className=" h2cl text-3xl text-[#4c9da8]">
+          <strong> Sept 2021 – May 2023</strong>
+        </h2>
+        <h2
+          className="text-2xl
+              "
+        >
+          Algonquin College, Ottawa, Ontario, Canada -
+          <b> Computer Programming</b>
+        </h2>
+        <h2 className=" h2cl text-3xl text-[#4c9da8]">
+          <strong>Sept 2009 – Sept 2012</strong>
+        </h2>
+        <h2
+          className="text-2xl
+              "
+        >
+          Hung Vuong University, Ho Chi Minh City, Viet Nam -
+          <b> English Language</b>
+        </h2>
+
+        {/* <table>
           <tr>
             <th>
               <img className="cap" src="public/imgs/graduation.png"></img>
             </th>
             <th>
-              <h1 className=" right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
+              <h1 className="  education right homeh1 font-sans sans-serif font-serif hover:system-ui text-[#434e58] text-5xl ">
                 Education
               </h1>
             </th>
@@ -41,10 +58,13 @@ const Home = () => {
           <tr>
             <td></td>
             <td className="right">
-              <h2 className=" h2cl text-xl text-[#4c9da8]">
-                Sept 2021 – May 2023
+              <h2 className=" h2cl text-3xl text-[#4c9da8]">
+                <strong> Sept 2021 – May 2023</strong>
               </h2>
-              <h2>
+              <h2
+                className="text-2xl
+              "
+              >
                 Algonquin College, Ottawa, Ontario, Canada -
                 <b> Computer Programming</b>
               </h2>
@@ -53,16 +73,19 @@ const Home = () => {
           <tr>
             <td></td>
             <td className="right">
-              <h2 className=" h2cl text-xl text-[#4c9da8]">
-                Sept 2009 – Sept 2012
+              <h2 className=" h2cl text-3xl text-[#4c9da8]">
+                <strong>Sept 2009 – Sept 2012</strong>
               </h2>
-              <h2>
+              <h2
+                className="text-2xl
+              "
+              >
                 Hung Vuong University, Ho Chi Minh City, Viet Nam -
                 <b> English Language</b>
               </h2>
             </td>
           </tr>
-        </table>
+        </table> */}
       </div>
       {/* Coding languages */}
       <div className=" container languages">
