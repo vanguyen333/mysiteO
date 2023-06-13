@@ -23,16 +23,16 @@ const Home = () => {
     <div className="homecl">
       {/* education */}
       <div className="education  h-120 text-center object-center">
-        <h1 className=" font-bold homeh1 font-sans sans-serif font-serif hover:system-ui  text-5xl  text-[#434e58] ">
+        <h1 className=" h1ex font-bold homeh1 font-sans sans-serif font-serif hover:system-ui  text-5xl  text-[#434e58] ">
           <img
-            className="pr-3 cap object-scale-down h-20 border-none"
+            className="pr-3 cap object-scale-down h-24 border-none"
             src="public/imgs/graduation.png"
           />
           Education
         </h1>
 
         <h2 className=" h2cl text-3xl text-[#4c9da8]">
-          <strong> Sept 2021 – May 2023</strong>
+          <strong> Sept 2021 – April 2023</strong>
         </h2>
         <h2
           className="text-2xl
@@ -44,17 +44,14 @@ const Home = () => {
         <h2 className=" h2cl text-3xl text-[#4c9da8]">
           <strong>Sept 2009 – Sept 2012</strong>
         </h2>
-        <h2
-          className="text-2xl
-              "
-        >
+        <h2 className="text-2xl">
           Hung Vuong University, Ho Chi Minh City, Viet Nam -
           <b> English Language</b>
         </h2>
       </div>
       {/* Coding languages */}
       <div className="lang h-120 text-center">
-        <h1 className=" font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
+        <h1 className=" h1ex skills font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
           Skills
         </h1>
         <Slider {...settings}>
@@ -93,10 +90,21 @@ const Home = () => {
           </div>
         </Slider>
       </div>
-      {/* <img className="h-80" src="imgs/1.png" alt="" /> */}
+      {/* Experience */}
+      {/* <div className="experience  h-120 ">
+        <h1 className=" h1ex text-center font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
+          Work Experience
+        </h1>
+        <h2 className="text-2xl">Related Work Experience</h2>
+        <p>Web Developer - U+Education</p>
+        <h2 className="text-2xl">Non-Related Work Experience</h2>
+      </div> */}
+
       {/* Projects */}
       <div className="projects text-center">
-        <h1>Projects</h1>
+        <h1 className=" h1ex text-center font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
+          Projects
+        </h1>
         <p>Lorem ipsum</p>
       </div>
     </div>

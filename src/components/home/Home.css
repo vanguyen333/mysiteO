@@ -32,3 +32,22 @@
   background-color: rgb(251, 246, 240);
   /* background-color: rgb(185, 242, 247); */
 }
+.skills {
+  margin-bottom: 50px;
+}
+
+/*Experience  */
+.experience {
+  direction: center;
+  padding-top: 110px;
+  text-align: center;
+  padding-bottom: 130px;
+  padding-left: 43px;
+  /* background-color: rgb(207, 222, 244); */
+}
+.h1ex {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#45dde0, #3e15c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
