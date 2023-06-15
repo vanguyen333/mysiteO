@@ -14,12 +14,13 @@ function App() {
     },
   ]);
   return (
-    <RouterProvider router={router} />
-    // <div>
-    //   <Header />
-    //   <Home />
-    //   {/* <Blog /> */}
-    // </div>
+    <div>
+      <RouterProvider router={router} />
+
+      {/* <Header /> */}
+      <Home />
+      {/* <Blog /> */}
+    </div>
   );
 }
 
