@@ -5,8 +5,23 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Home from "../pages/Home";
+import Blog from "../pages/Blog";
+import Contact from "../pages/Contact";
+import Courses from "../pages/Courses";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import { logoBlack } from "public/imgs/tulip.png";
+{
+  /* <BrowserRouter>
+<Routes>
+  <Route index element={<Home />} />
+  <Route path="/home" element={<Home />} />
+  <Route path="/blog" element={<Blog />} />
+  <Route path="/courses" element={<Courses />} />
+</Routes> */
+}
+// </BrowserRouter>
 
 const Header = () => {
   return (
@@ -21,6 +36,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto text-xl">
               <Nav.Link href="#home">Home</Nav.Link>
+
               <Nav.Link href="#blog">Blog</Nav.Link>
 
               <Nav.Link href="#contact">Contact</Nav.Link>
@@ -48,11 +64,7 @@ const Header = () => {
           I am a full stack developer. I develop applications, software and web
           applications.
         </h2>
-        <img
-          className="waterhd w-full"
-          src="public/imgs/Water.png"
-          alt="water"
-        />
+        <img className="waterhd w-full" src="/imgs/Water.png" alt="water" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ const Education = () => {
       <h1 className=" h1ex font-bold homeh1 font-sans sans-serif font-serif hover:system-ui  text-5xl  text-[#434e58] ">
         <img
           className="pr-3 cap object-scale-down h-24 border-none"
-          src="public/imgs/graduation.png"
+          src="/imgs/graduation.png"
         />
         Education
       </h1>

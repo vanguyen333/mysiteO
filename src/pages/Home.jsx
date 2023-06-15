@@ -13,14 +13,14 @@ import Projects from "../components/Projects";
 // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 // <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Quicksand&display=swap" rel="stylesheet"></link>
 
+//  https://www.youtube.com/watch?v=TWz4TjSssbg
 const Home = () => {
   return (
     <div className="homecl">
       <Header />
-      {/* education */}
       <Education />
-      {/* Skills */}
       <Skills />
+      <Projects />
 
       {/* Experience */}
       {/* <div className="experience  h-120 ">
@@ -31,9 +31,6 @@ const Home = () => {
         <p>Web Developer - U+Education</p>
         <h2 className="text-2xl">Non-Related Work Experience</h2>
       </div> */}
-
-      {/* Projects */}
-      <Projects />
     </div>
   );
 };

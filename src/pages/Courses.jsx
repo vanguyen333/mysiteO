@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 const Courses = () => {
-    return (  );
-}
- 
+  return <Header />;
+};
+
 export default Courses;
