@@ -6,11 +6,13 @@ import Blog from "./pages/Blog";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
 
+import Navbar from "./components/Navbar";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Header, Home, Blog } from "../pages";
-function App() {
+const App = () => {
   // const router = createBrowserRouter([
   //   {
   //     path: "/",
@@ -18,18 +20,13 @@ function App() {
   //   },
   // ]);
   return (
-    <div>
-      <Home />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/courses" element={<Courses />} />
-        </Routes>
-      </BrowserRouter> */}
+    <div className="App">
+      <Navbar />
+      <div className="content">
+        <h1>Content</h1>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

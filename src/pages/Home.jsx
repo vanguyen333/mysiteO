@@ -17,7 +17,6 @@ import Projects from "../components/Projects";
 const Home = () => {
   return (
     <div className="homecl">
-      <Header />
       <Education />
       <Skills />
       <Projects />
