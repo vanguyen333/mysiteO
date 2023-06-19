@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 // import { Header, Home, Blog } from "../pages";
 const App = () => {
   // const router = createBrowserRouter([
@@ -20,12 +20,23 @@ const App = () => {
   //   },
   // ]);
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <h1>Content</h1>
-      </div>
-    </div>
+    <BrowserRouter>
+      <header>
+        <nav>
+          <h1>vanguyendev</h1>
+          <Link to="/">Home</Link>
+          <NavLink to="blog">Blog</NavLink>
+          <NavLink to="courses">Courses</NavLink>
+        </nav>
+      </header>
+      <main>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="courses" element={<Courses />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 };
 

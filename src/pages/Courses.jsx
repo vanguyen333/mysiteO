@@ -1,6 +1,10 @@
 import Header from "../components/Header";
 const Courses = () => {
-  return <Header />;
+  return (
+    <div>
+      <h1>Free Courses</h1>
+    </div>
+  );
 };
 
 export default Courses;
