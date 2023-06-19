@@ -6,11 +6,10 @@ import Blog from "./pages/Blog";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
 
-import Navbar from "./components/Navbar";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import ThanhNav from "./components/ThanhNav";
 // import { Header, Home, Blog } from "../pages";
 const App = () => {
   // const router = createBrowserRouter([
@@ -20,23 +19,9 @@ const App = () => {
   //   },
   // ]);
   return (
-    <BrowserRouter>
-      <header>
-        <nav>
-          <h1>vanguyendev</h1>
-          <Link to="/">Home</Link>
-          <NavLink to="blog">Blog</NavLink>
-          <NavLink to="courses">Courses</NavLink>
-        </nav>
-      </header>
-      <main>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="courses" element={<Courses />} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+    <div>
+      <ThanhNav />
+    </div>
   );
 };
 

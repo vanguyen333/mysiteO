@@ -18,7 +18,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const Header = () => {
   return (
     <div className="headercl w-full h-120">
-      <Navbar expand="lg" variant="dark">
+      {/* <Navbar expand="lg" variant="dark">
         <Container>
           <Navbar.Brand className="titlenav" href="#home">
             <img className="logome" src="public/imgs/v.jpg" />
@@ -47,7 +47,7 @@ const Header = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
       <div className="homecl">
         <h1 className=" h1headercl font-serif ui-serif font-semibold text-center hover:system-ui text-[#d6f4f8] text-6xl ">
           Looking for a developer?
