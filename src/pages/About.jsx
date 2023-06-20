@@ -49,8 +49,9 @@ const About = () => {
           constantly eager to learn and apply new skills and talents to drive
           your organization's success. With my dedication and expertise, I am
           confident in making a significant contribution to your team and
-          helping your organization thrive. Once again, I appreciate your visit
-          on my websit.
+          helping your organization thrive.
+          <br />
+          Once again, I appreciate your visit on my website.
         </p>
       </div>
     </div>
