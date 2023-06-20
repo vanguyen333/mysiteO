@@ -18,37 +18,37 @@ const Skills = () => {
       </h1>
       <Slider {...settings}>
         <div>
-          <img className="h-80" src="imgs/1.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/1.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/2.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/2.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/3.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/3.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/4.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/4.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/5.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/5.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/6.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/6.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/7.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/7.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/8.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/8.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/9.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/9.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/10.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/10.png" alt="" />
         </div>
         <div>
-          <img className="h-80" src="imgs/11.png" alt="" />
+          <img className="h-80 rounded-3xl" src="imgs/11.png" alt="" />
         </div>
       </Slider>
     </div>
