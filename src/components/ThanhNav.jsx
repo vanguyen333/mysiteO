@@ -16,6 +16,7 @@ const ThanhNav = () => {
     <BrowserRouter>
       <header>
         <nav>
+          <img className="logome" src="public/imgs/v.jpg" />
           <h1>vanguyendev</h1>
           <Link to="/">Home</Link>
           <NavLink to="blog">Blog</NavLink>

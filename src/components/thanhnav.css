@@ -6,7 +6,7 @@ header nav {
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
 
   display: flex;
-  gap: 23px;
+  gap: 13px;
   justify-content: end;
   /* max-width: 1200px; */
   padding-left: 130px;
@@ -19,4 +19,22 @@ header nav {
 }
 header nav h1 {
   margin-right: auto;
+}
+.headercl {
+  background-image: linear-gradient(to right, #70eef0, #8a6bf0);
+  /* margin: 30px; */
+}
+.titlenav {
+  color: white;
+}
+.logome {
+  height: 37px;
+  display: inline-block;
+  border: none;
+}
+.waterhd {
+  border: none;
+}
+.h1headercl {
+  padding-top: 130px;
 }
