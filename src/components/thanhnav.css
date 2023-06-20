@@ -1,0 +1,22 @@
+.headercl {
+  background-image: linear-gradient(to right, #70eef0, #8a6bf0);
+  /* margin: 30px; */
+}
+header nav {
+  background-image: linear-gradient(to right, #70eef0, #8a6bf0);
+
+  display: flex;
+  gap: 23px;
+  justify-content: end;
+  /* max-width: 1200px; */
+  padding-left: 130px;
+  padding-right: 130px;
+  color: azure;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header nav h1 {
+  margin-right: auto;
+}
