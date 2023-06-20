@@ -1,3 +1,4 @@
+import "./about.css";
 const About = () => {
   return (
     <div>
@@ -19,7 +20,9 @@ const About = () => {
         />
       </div>
       <div className="content text-center pl-52 pr-52">
-        <h1 className="pt-10 pb-10">Hi there, it's Van.</h1>
+        <h1 className="h1headercl font-serif ui-serif font-semibold text-center hover:system-ui  text-4xl  pt-10 pb-10">
+          Hi there, it's Van.
+        </h1>
         <p className="pb-10">
           Thank you for taking the time to visit my personal website. I am
           delighted to introduce myself as a confident and accomplished

@@ -1,0 +1,6 @@
+.h1headercl {
+  font-size: 42px;
+  background: -webkit-linear-gradient(#70eef0, #8a6bf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
