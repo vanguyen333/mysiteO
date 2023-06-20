@@ -4,12 +4,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.about {
+.content {
   background: repeating-linear-gradient(
-    45deg,
+    23deg,
     #ffffff,
     #ffffff 10px,
-    #e0f4b5 10px,
-    #9df2b5 20px
+    #bef8f9 10px,
+    #bef8f9 20px
   );
 }
