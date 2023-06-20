@@ -50,7 +50,7 @@ const About = () => {
           your organization's success. With my dedication and expertise, I am
           confident in making a significant contribution to your team and
           helping your organization thrive. Once again, I appreciate your visit
-          and encourage you to explore my portfolio further.
+          on my websit.
         </p>
       </div>
     </div>
