@@ -24,19 +24,18 @@ const About = () => {
           Hi there, it's Van.
         </h1>
         <p className="pb-10">
-          Thank you for taking the time to visit my personal website. I am
-          delighted to introduce myself as a confident and accomplished
+          Thank you for taking the time to visit my personal website. I am a
           full-stack developer based in Ottawa, Canada.
           <br />
           <br />
           As a recent graduate from Algonquin College with a specialization in
           Computer Programming, I possess a wide range of skills in building web
           applications, applications, and software solutions. During my
-          education, I had the privilege of working as a co-op intern web
-          developer at U+Education, an Education company, for a duration of four
-          months. In this role, I played a pivotal part in designing, updating,
-          and revamping the company's WordPress website, gaining valuable
-          hands-on experience.
+          education, I was working as a co-op intern web developer at
+          U+Education, an Education company, for a duration of four months. In
+          this role, I played a pivotal part in designing, updating, and
+          revamping the company's WordPress website, gaining valuable hands-on
+          experience.
           <br />
           <br /> Additionally, I have successfully managed my time as a Senior
           Women's Lead for the renowned Old Navy Brand, where I honed my
