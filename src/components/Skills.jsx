@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <div className="lang h-120 text-center">
       <h1 className=" h1ex skills font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
-        Skills
+        Technical Skills.
       </h1>
       <Slider {...settings}>
         <div>
