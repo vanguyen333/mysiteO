@@ -12,22 +12,36 @@ const Projects = () => {
         </strong>
         account.
       </p>
-
-      <img
-        className="h-72 rounded-3xl border-none shadow-md"
-        src="imgs/weather.png"
-        alt=""
-      />
-      <img
-        className="h-72 rounded-3xl border-none shadow-md"
-        src="imgs/tindog.png"
-        alt=""
-      />
-      <img
-        className="h-72 rounded-3xl border-none shadow-md"
-        src="imgs/randomquotes.png"
-        alt=""
-      />
+      <div>
+        <img
+          className="w-72 rounded-3xl border-none shadow-md"
+          src="imgs/weather.png"
+          alt="checking weather"
+        />
+        <p>
+          This is a web application for checking weather condition by entering
+          nation or city name using React JS and API key.{" "}
+        </p>
+      </div>
+      <div>
+        <img
+          className="w-72 rounded-3xl border-none shadow-md"
+          src="imgs/tindog.png"
+          alt="tindog"
+        />
+        <p>This is a website using HTML and CSS, the site is responsive.</p>
+      </div>
+      <div>
+        <img
+          className="w-72 rounded-3xl border-none shadow-md"
+          src="imgs/randomquotes.png"
+          alt="random quote generator"
+        />
+        <p>
+          This is a web application to generate a random quote using API key and
+          React JS.
+        </p>
+      </div>
     </div>
   );
 };
