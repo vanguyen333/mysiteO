@@ -1,8 +1,10 @@
-.h1headercl {
+.h1headerabout {
   font-size: 42px;
   background: -webkit-linear-gradient(#70eef0, #8a6bf0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* .content {
   background: repeating-linear-gradient(
     23deg,
     #ffffff,
@@ -10,13 +12,4 @@
     #bef8f9 10px,
     #bef8f9 20px
   );
-}
-.content {
-  background: repeating-linear-gradient(
-    23deg,
-    #ffffff,
-    #ffffff 10px,
-    #bef8f9 10px,
-    #bef8f9 20px
-  );
-}
+} */

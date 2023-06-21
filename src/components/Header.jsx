@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+// import "./header.css";
 // import Blog from "../blog/Blog.jsx";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -48,6 +48,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar> */}
+      {/* d6f4f8 */}
       <div className="homecl">
         <h1 className=" h1headercl font-serif ui-serif font-semibold text-center hover:system-ui text-[#d6f4f8] text-6xl ">
           Looking for a developer?

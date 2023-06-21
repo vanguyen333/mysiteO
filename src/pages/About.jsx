@@ -20,7 +20,7 @@ const About = () => {
         />
       </div>
       <div className="content text-center pl-52 pr-52">
-        <h1 className="h1headercl font-serif ui-serif font-semibold text-center hover:system-ui  text-4xl  pt-10 pb-10">
+        <h1 className="h1headerabout font-serif ui-serif font-semibold text-center hover:system-ui  text-4xl  pt-10 pb-10">
           Hi there, it's Van.
         </h1>
         <p className="pb-10">
