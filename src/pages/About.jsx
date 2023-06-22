@@ -54,6 +54,13 @@ const About = () => {
           Once again, I appreciate your visit on my website.
         </p>
       </div>
+      <p className="pl-10 pt-10">
+        Bird Image source:{" "}
+        <a href="https://www.wallpaperflare.com/beautiful-girl-with-colorful-hair-desktop-wallpaper-hd-for-mobile-phones-and-laptops-wallpaper-bhxbt">
+          {" "}
+          wallpaperflare
+        </a>
+      </p>
       <Footer />
     </div>
   );
