@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Home from "../pages/Home";
 import Blog from "../pages/Blog";
-import Contact from "../pages/Contact";
+
 import Courses from "../pages/Courses";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

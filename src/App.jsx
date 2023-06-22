@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Courses from "./pages/Courses";
-import Contact from "./pages/Contact";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import "./about.css";
 const About = () => {
   return (
@@ -53,6 +54,7 @@ const About = () => {
           Once again, I appreciate your visit on my website.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

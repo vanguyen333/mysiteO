@@ -7,6 +7,8 @@ import Education from "../components/Education";
 import Header from "../components/Header";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 // import React from "react";
 // import <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +23,8 @@ const Home = () => {
       <Education />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
 
       {/* Experience */}
       {/* <div className="experience  h-120 ">
