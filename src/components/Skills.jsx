@@ -94,6 +94,20 @@ const Skills = () => {
             alt=""
           />
         </div>
+        <div>
+          <img
+            className="h-72 rounded-3xl border-none shadow-md"
+            src="imgs/12.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            className="h-72 rounded-3xl border-none shadow-md"
+            src="imgs/13.png"
+            alt=""
+          />
+        </div>
       </Slider>
     </div>
   );
