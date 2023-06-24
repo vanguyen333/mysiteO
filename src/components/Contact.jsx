@@ -15,9 +15,14 @@ const Contact = () => {
         <input className="border" type="text" name="subject" id="subject" />
         <br />
         <label htmlFor="message">Message:</label>
-        <input className="border" type="text" name="message" id="message" />
+        <textarea className="border" type="text" name="message" id="message" />
         <br />
-        <button className="border bg-sky-400"> Submit</button>
+        <button
+          type="submit"
+          className="border rounded-md py-2 px-4 font-bold bg-sky-400"
+        >
+          Send
+        </button>
       </form>
     </div>
   );
