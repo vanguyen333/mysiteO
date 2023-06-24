@@ -19,7 +19,7 @@ const Contact = () => {
         <br />
         <button
           type="submit"
-          className="border rounded-md py-2 px-4 font-bold bg-sky-400"
+          className="border  rounded-md py-2 px-4 font-bold bg-sky-400 hover:bg-sky-700"
         >
           Send
         </button>
