@@ -41,3 +41,15 @@
   margin: 40px auto;
   padding: 20px;
 } */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Quicksand&display=swap");
+.contact {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  background-color: #eee;
+}
+form {
+  /* display: block; */
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px;
+}
