@@ -1,10 +1,11 @@
 const Contact = () => {
   return (
-    <div className="contact  h-90 pt-10 mt-32 text-center pb-24 pt-24 object-center">
-      <h1>
+    <div className="contact  lex flex-col justify-center items-center h-90 pt-10 mt-32 text-center pb-24 pt-24 object-center">
+      <h1 className="text-3xl pb-10 font-bold">
         Contact <span>me</span>
       </h1>
-      <form className="w-full max-w-xs">
+
+      <form className="mx-96 px-20 pt-6 pb-8 mb-0 justify-center justify-items-center">
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
@@ -13,7 +14,7 @@ const Contact = () => {
             Name:
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded  mb-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
             placeholder="Name"
             type="text"
@@ -26,7 +27,7 @@ const Contact = () => {
               Email:
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className=" mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               placeholder="Email"
               type="email"
@@ -38,11 +39,11 @@ const Contact = () => {
               >
                 Your message:
               </label>
-              <input
-                className=" block p-2.5 h-24 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              <textarea
+                rows="3"
+                className="  block p-2.5 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="message"
                 placeholder="Message"
-                type="textarea"
               />
             </div>
             <button
