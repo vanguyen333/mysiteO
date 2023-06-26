@@ -1,49 +1,49 @@
 const Contact = () => {
   return (
-    <div className="contact  lex flex-col justify-center items-center h-90 pt-10 mt-32 text-center pb-24 pt-24 object-center">
+    <div className="contact  flex flex-col  items-center h-90 pt-10 mt-32 text-center pb-24 pt-24">
       <h1 className="text-3xl pb-10 font-bold">
         Contact <span>me</span>
       </h1>
 
-      <form className="mx-96 px-20 pt-6 pb-8 mb-0 justify-center justify-items-center">
+      <form className="mx-9 px-32 pt-6 pb-8 mb-0 justify-center justify-items-center">
         <div className="mb-4">
           <label
-            className="block text-gray-700 text-sm font-bold mb-2"
+            className="block text-gray-700  text-sm font-bold mb-2"
             htmlFor="username"
           >
             Name:
           </label>
           <input
-            className="shadow appearance-none border rounded  mb-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className=" text-left mb-2 shadow appearance-none border rounded w-full py-2 px-36   text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
-            placeholder="Name"
+            // placeholder="Name"
             type="text"
           />
           <div className="mb-6">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="email"
+              // htmlFor="email"
             >
               Email:
             </label>
             <input
-              className=" mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="text-left mb-2 shadow appearance-none border rounded w-full py-2 px-36 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
-              placeholder="Email"
+              // placeholder="Email"
               type="email"
             />
             <div className="mb-6">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="message"
+                // htmlFor="message"
               >
                 Your message:
               </label>
               <textarea
                 rows="3"
-                className="  block p-2.5 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="text-left  block p-2.5 shadow appearance-none border rounded w-full py-2 px-36 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="message"
-                placeholder="Message"
+                // placeholder="Message"
               />
             </div>
             <button
