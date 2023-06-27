@@ -2,16 +2,17 @@
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
   /* margin: 30px; */
 }
-.me-auto {
+/* .meauto {
   justify-content: end;
-}
-header nav {
+  display: flex;
+} */
+/* header nav {
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
 
   display: flex;
   gap: 13px;
   justify-content: end;
-  /* max-width: 1200px; */
+
   padding-left: 130px;
   padding-right: 130px;
   color: azure;
@@ -25,11 +26,11 @@ header nav h1 {
 }
 .headercl {
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
-  /* margin: 30px; */
+  
 }
 .titlenav {
   color: white;
-}
+} */
 .logome {
   height: 37px;
   display: inline-block;

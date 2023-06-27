@@ -1,17 +1,8 @@
-// import Header from "./components/Header";
-// import Home from "./pages/Home";
-// import Blog from "./pages/Blog";
-// import Courses from "./pages/Courses";
-// import Contact from "./pages/Contact";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
-// import { useRef } from "react";
-// import { FaBars, Fatimes } from "react-icons/fa";
 
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import Home from "../pages/Home";
@@ -20,11 +11,6 @@ import Courses from "../pages/Courses";
 import About from "../pages/About";
 import "./thanhnav.css";
 const ThanhNav = () => {
-  // const navRef = useRef();
-  // const showNavbar = () => {
-  //   navRef.current.classList.toggle("responsive_nav");
-  // };
-
   return (
     <BrowserRouter>
       <Navbar className="headercl" collapseOnSelect expand="xl" variant="dark">
@@ -35,7 +21,7 @@ const ThanhNav = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ms-auto flex flex-end text-lg ">
               <Nav.Link as={NavLink} to="/" exact>
                 Home
               </Nav.Link>
