@@ -27,10 +27,10 @@ const ThanhNav = () => {
 
   return (
     <BrowserRouter>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar className="headercl" collapseOnSelect expand="xl" variant="dark">
         <Container>
           <Navbar.Brand href="/">
-            <img className="logome" src="/imgs/v.jpg" alt="Logo" />
+            <img className="logome " src="/imgs/v.jpg" alt="Logo" />
             vanguyendev
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -60,32 +60,6 @@ const ThanhNav = () => {
         <Route path="/courses" element={<Courses />} />
       </Routes>
     </BrowserRouter>
-    // <BrowserRouter>
-    //   <header>
-    //     <nav ref={navRef}>
-    //       <img className="logome" src="public/imgs/v.jpg" />
-    //       <h1>vanguyendev</h1>
-    //       <Link to="/">Home</Link>
-    //       <NavLink to="about">About</NavLink>
-    //       <NavLink to="blog">Blog</NavLink>
-    //       <NavLink to="courses">Courses</NavLink>
-    //       <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-    //         <Fatimes />
-    //       </button>
-    //     </nav>
-    //     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-    //       <FaBars />
-    //     </button>
-    //   </header>
-    //   <main>
-    //     <Routes>
-    //       <Route index element={<Home />} />
-    //       <Route path="about" element={<About />} />
-    //       <Route path="blog" element={<Blog />} />
-    //       <Route path="courses" element={<Courses />} />
-    //     </Routes>
-    //   </main>
-    // </BrowserRouter>
 
     // <BrowserRouter>
     //   <header>
