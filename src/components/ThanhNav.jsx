@@ -13,7 +13,12 @@ import "./thanhnav.css";
 const ThanhNav = () => {
   return (
     <BrowserRouter>
-      <Navbar className="headercl" collapseOnSelect expand="xl" variant="dark">
+      <Navbar
+        className="headercl px-24"
+        collapseOnSelect
+        expand="xl"
+        variant="dark "
+      >
         <Container>
           <Navbar.Brand href="/">
             <img className="logome " src="/imgs/v.jpg" alt="Logo" />

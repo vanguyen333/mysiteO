@@ -22,6 +22,7 @@ const Home = () => {
       <Header />
       <Education />
       <Skills />
+
       <Projects />
       <Contact />
       <Footer />

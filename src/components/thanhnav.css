@@ -1,6 +1,17 @@
 .headercl {
   background-image: linear-gradient(to right, #70eef0, #8a6bf0);
-  /* margin: 30px; */
+}
+.logome {
+  height: 37px;
+  display: inline-block;
+  border: none;
+  padding-right: 7px;
+}
+.waterhd {
+  border: none;
+}
+.h1headercl {
+  padding-top: 130px;
 }
 /* .meauto {
   justify-content: end;
@@ -30,40 +41,4 @@ header nav h1 {
 }
 .titlenav {
   color: white;
-} */
-.logome {
-  height: 37px;
-  display: inline-block;
-  border: none;
-  padding-right: 7px;
-}
-.waterhd {
-  border: none;
-}
-.h1headercl {
-  padding-top: 130px;
-}
-
-/* @media only screen and (max-width: 1024px) {
-  header .nav-btn {
-    visibility: visible;
-    opacity: 1;
-  }
-  header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    background-color: blue;
-    transition: 1s;
-    transform: translateY(-100vh);
-  }
-  header .respnsive_nav {
-    transform: none;
-  }
 } */
