@@ -23,18 +23,39 @@
 }
 
 /* Skills */
-.lang {
+/* .lang {
   direction: center;
   padding-top: 80px;
   text-align: center;
   padding-bottom: 130px;
-  /* padding-left: 43px; */
-  /* background-color: rgb(251, 246, 240); */
-
-  /* background-color: rgb(185, 242, 247); */
 }
 .skills {
   margin-bottom: 50px;
+} */
+.carousel {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* background-color: black; */
+
+  /* color: rgb(17, 17, 17); */
+  /* height: 100vh;
+  width: 100vw;
+  box-sizing: border-box; */
+}
+
+/* .box h3 {
+  text-align: center;
+  height: 300px;
+}
+.slick-slide div {
+  margin: 0 1rem;
+} */
+.h1ex {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#45dde0, #3e15c6);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*Experience  */
@@ -46,10 +67,4 @@
   padding-left: 43px;
 
   /* background-color: rgb(207, 222, 244); */
-}
-.h1ex {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#45dde0, #3e15c6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
