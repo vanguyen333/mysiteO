@@ -6,11 +6,11 @@ import Education from "../components/Education";
 // import slides from "./mock.json";
 
 import Header from "../components/Header";
-import Skills from "../components/Skills";
+
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
-import Sliding from "../components/Sliding";
+import Skills from "../components/Skills";
 
 // import React from "react";
 // import <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,21 +23,10 @@ const Home = () => {
     <div className="homecl">
       <Header />
       <Education />
-      {/* <Skills /> */}
-      <Sliding />
+      <Skills />
       <Projects />
       <Contact />
       <Footer />
-
-      {/* Experience */}
-      {/* <div className="experience  h-120 ">
-        <h1 className=" h1ex text-center font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10">
-          Work Experience
-        </h1>
-        <h2 className="text-2xl">Related Work Experience</h2>
-        <p>Web Developer - U+Education</p>
-        <h2 className="text-2xl">Non-Related Work Experience</h2>
-      </div> */}
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Projects = () => {
         account.
       </p>
 
-      <table className="">
+      {/* <table className="">
         <tr>
           <td className="">
             <img
@@ -81,7 +81,7 @@ const Projects = () => {
             </button>
           </td>
         </tr>
-      </table>
+      </table> */}
     </div>
   );
 };

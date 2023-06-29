@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="footer h-32 pt-10 mt-0 text-center bg-indigo-200 ">
       <h1>
-        @Created by<strong> Van Nguyen </strong> - 2023
+        @Copyright<strong> Van Nguyen </strong> - 2023
       </h1>
       <div className="logos flex gap-10 justify-center pt-6">
         <a href="https://github.com/vanguyen333">
