@@ -1,7 +1,7 @@
 import "./project.css";
 const Projects = () => {
   return (
-    <div className="projects h-96  ">
+    <div className="projects  h-96 md:h-auto  ">
       <h1 className=" h1ex text-center font-bold font-sans sans-serif font-serif text-5xl text-[#434e58] pb-10 text-center">
         Projects
       </h1>
@@ -13,6 +13,48 @@ const Projects = () => {
         </strong>
         account.
       </p>
+      <div className="hinh py-20 flex flex-col md:flex-row justify-center items-center gap-10  px-10">
+        <div className="img ">
+          <img
+            className="w-72 rounded-3xl border-none shadow-md"
+            src="imgs/weather.png"
+            alt="checking weather"
+          />
+          <div className="flex justify-center">
+            <button className=" bg-blue-500 text-white font-bold my-4 py-2 px-4 rounded-full">
+              <a href="https://eclectic-cat-41d5da.netlify.app/">
+                Open project
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="img">
+          <img
+            className="w-72 rounded-3xl border-none shadow-md"
+            src="imgs/tindog.png"
+            alt="tindog"
+          />
+          <div className="flex justify-center">
+            <button className="bg-blue-500  text-white font-bold my-4  py-2 px-4 rounded-full">
+              <a href="https://yummyapple123.github.io/tindog/">Open project</a>
+            </button>
+          </div>
+        </div>
+        <div className="img">
+          <img
+            className="w-72 rounded-3xl border-none shadow-md"
+            src="imgs/randomquotes.png"
+            alt="random quote "
+          />
+          <div className="flex justify-center">
+            <button className="bg-blue-500 text-white font-bold my-4  py-2 px-4 rounded-full">
+              <a href="https://jocular-maamoul-1b0c23.netlify.app/">
+                Open project
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
 
       {/* <table className="">
         <tr>

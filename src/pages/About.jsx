@@ -2,25 +2,25 @@ import Footer from "../components/Footer";
 import "./about.css";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about ">
       <div className="pt-20  flex flex-col md:flex-row justify-center items-center gap-10  px-10">
-        <div className="img md:h-auto ">
+        <div className="box img md:h-auto ">
           <img
-            className="h-32 border-none h-32 md:h-auto"
+            className="shadow-2xl h-32 border-none h-32 md:h-auto"
             src="imgs/bird.jpg"
             alt="bird"
           />
         </div>
-        <div className="img md:h-auto">
+        <div className=" box img md:h-auto">
           <img
-            className=" h-32 border-none rounded-3xl  md:h-auto"
+            className="shadow-2xl h-32 border-none rounded-3xl  md:h-auto"
             src="imgs/me.jpeg"
             alt="metuplip"
           />
         </div>
-        <div className="img md:h-auto">
+        <div className="box img md:h-auto">
           <img
-            className="h-32 border-none md:h-auto "
+            className="shadow-2xl h-32 border-none md:h-auto "
             src="imgs/bird.jpg"
             alt="bird"
           />
@@ -42,6 +42,14 @@ const About = () => {
           this role, I played a pivotal part in designing, updating, and
           revamping the company's WordPress website, gaining valuable hands-on
           experience.
+          <br />
+          <br />
+          Passionate about designing innovative technology products, I am
+          constantly eager to learn and apply new skills and talents to drive
+          your organization's success. With my dedication and expertise, I am
+          confident in making a significant contribution to your team and
+          helping your organization thrive.
+          <br />
         </p>
       </div>
       <p className="pl-10 pt-10">
