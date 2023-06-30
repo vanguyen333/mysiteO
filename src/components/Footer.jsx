@@ -1,9 +1,12 @@
 const Footer = () => {
   return (
-    <div className="footer h-32 pt-10 mt-0 text-center bg-indigo-200 ">
+    <div className="footer h-40 pt-10 mt-0 text-center bg-indigo-200 ">
       <h1>
         @Copyright<strong> Van Nguyen </strong> - 2023
       </h1>
+      <p className="pt-3">
+        Site technologies: - ReactJS, Tailwindcss, Vite, BootStrap
+      </p>
       <div className="logos flex gap-10 justify-center pt-6">
         <a href="https://github.com/vanguyen333">
           <img

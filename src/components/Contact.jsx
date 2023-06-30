@@ -1,7 +1,7 @@
 import { useState } from "react";
 const Contact = () => {
   return (
-    <div className="contact  flex flex-col  items-center h-90 pt-10 mt-32 text-center pb-24 pt-24">
+    <div className="contact  flex flex-col  items-center h-90 pt-10 mt-0 text-center pb-24 pt-24">
       <h1 className="text-3xl pb-10 font-bold">
         Contact <span>me</span>
       </h1>

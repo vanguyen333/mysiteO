@@ -36,8 +36,8 @@ const About = () => {
           <br />
           As a recent graduate from Algonquin College with a specialization in
           Computer Programming, I possess a wide range of skills in building web
-          applications, applications, and software solutions. During my
-          education, I was working as a co-op intern web developer at
+          applications, applications, software solutions and debugging. During
+          my education, I was working as a co-op intern web developer at
           U+Education, an Education company, for a duration of four months. In
           this role, I played a pivotal part in designing, updating, and
           revamping the company's WordPress website, gaining valuable hands-on
