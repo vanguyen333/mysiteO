@@ -20,6 +20,7 @@ const Projects = () => {
             src="imgs/weather.png"
             alt="checking weather"
           />
+          <p className="flex justify-center pt-7">Reactjs, API key</p>
           <div className="flex justify-center">
             <button className=" bg-blue-500 text-white font-bold my-4 py-2 px-4 rounded-full">
               <a href="https://eclectic-cat-41d5da.netlify.app/">
@@ -34,6 +35,7 @@ const Projects = () => {
             src="imgs/tindog.png"
             alt="tindog"
           />
+          <p className="flex justify-center pt-7">Responsive HTML, CSS</p>
           <div className="flex justify-center">
             <button className="bg-blue-500  text-white font-bold my-4  py-2 px-4 rounded-full">
               <a href="https://yummyapple123.github.io/tindog/">Open project</a>
@@ -46,6 +48,7 @@ const Projects = () => {
             src="imgs/randomquotes.png"
             alt="random quote "
           />
+          <p className="flex justify-center pt-7">React Js, API key</p>
           <div className="flex justify-center">
             <button className="bg-blue-500 text-white font-bold my-4  py-2 px-4 rounded-full">
               <a href="https://jocular-maamoul-1b0c23.netlify.app/">
