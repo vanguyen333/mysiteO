@@ -1,15 +1,12 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-
+import React from "react";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Home from "../pages/Home";
 import Blog from "../pages/Blog";
 import Courses from "../pages/Courses";
 import About from "../pages/About";
 import "./thanhnav.css";
+
 const ThanhNav = () => {
   return (
     <BrowserRouter>
@@ -17,7 +14,7 @@ const ThanhNav = () => {
         className="headercl px-24"
         collapseOnSelect
         expand="xl"
-        variant="dark "
+        variant="dark"
       >
         <Container>
           <Navbar.Brand href="/">
@@ -36,9 +33,23 @@ const ThanhNav = () => {
               <Nav.Link as={NavLink} to="/blog">
                 Blog
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/courses">
-                Courses
-              </Nav.Link>
+              <NavDropdown title="Courses" id="collasible-nav-dropdown">
+                <NavDropdown.Item as={NavLink} to="/courses/html">
+                  HTML
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/courses/css">
+                  CSS
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/courses/javascript">
+                  JavaScript
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/courses/reactjs">
+                  ReactJS
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/courses/java">
+                  Java
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -48,30 +59,16 @@ const ThanhNav = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/html" element={<Courses course="HTML" />} />
+        <Route path="/courses/css" element={<Courses course="CSS" />} />
+        <Route
+          path="/courses/javascript"
+          element={<Courses course="JavaScript" />}
+        />
+        <Route path="/courses/reactjs" element={<Courses course="ReactJS" />} />
+        <Route path="/courses/java" element={<Courses course="Java" />} />
       </Routes>
     </BrowserRouter>
-
-    // <BrowserRouter>
-    //   <header>
-    //     <nav>
-    //       <img className="logome" src="public/imgs/v.jpg" />
-    //       <h1>vanguyendev</h1>
-    //       <Link to="/">Home</Link>
-    //       <NavLink to="about">About</NavLink>
-    //       <NavLink to="blog">Blog</NavLink>
-    //       <NavLink to="courses">Courses</NavLink>
-    //     </nav>
-    //   </header>
-    //   <main>
-    //     <Routes>
-    //       <Route index element={<Home />} />
-    //       <Route path="about" element={<About />} />
-    //       <Route path="blog" element={<Blog />} />
-    //       <Route path="courses" element={<Courses />} />
-    //     </Routes>
-    //   </main>
-    // </BrowserRouter>
   );
 };
 
