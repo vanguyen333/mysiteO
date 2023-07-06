@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
@@ -9,14 +9,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_kqnxhfl",
+        "template_abl7uyl",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "QYSLB_8LCUzve4Qap"
       )
       .then(
         (result) => {
           console.log(result.text);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -29,6 +30,7 @@ const Contact = () => {
       <h1 className="text-3xl pb-10 font-bold">
         Contact <span>me</span>
       </h1>
+
       <form ref={form} onSubmit={sendEmail}>
         <div className="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
           <div className="grid grid-cols-2 gap-4 max-w-xl m-auto">
@@ -46,7 +48,7 @@ const Contact = () => {
                 type="text"
                 className="border-solid border-gray-400 border-2 p-3 md:text-xl w-full"
                 placeholder="Email Address"
-                name="user_meail"
+                name="user_email"
               />
             </div>
 
@@ -77,56 +79,6 @@ const Contact = () => {
           </div>
         </div>
       </form>
-      {/* <form className="mx-9 px-32 pt-6 pb-8 mb-0 justify-center justify-items-center">
-        <div className="mb-4">
-          <label
-            className="block text-gray-700  text-sm font-bold mb-2"
-            htmlFor="username"
-          >
-            Name:
-          </label>
-          <input
-            className=" text-left mb-2 shadow appearance-none border rounded w-full py-2 px-36   text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="name"
-            // placeholder="Name"
-            type="text"
-          />
-          <div className="mb-6">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              // htmlFor="email"
-            >
-              Email:
-            </label>
-            <input
-              className="text-left mb-2 shadow appearance-none border rounded w-full py-2 px-36 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="email"
-              // placeholder="Email"
-              type="email"
-            />
-            <div className="mb-6">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                // htmlFor="message"
-              >
-                Your message:
-              </label>
-              <textarea
-                rows="3"
-                className="text-left  block p-2.5 shadow appearance-none border rounded w-full py-2 px-36 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message"
-                // placeholder="Message"
-              />
-            </div>
-            <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              type="submit"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </form> */}
     </div>
   );
 };
