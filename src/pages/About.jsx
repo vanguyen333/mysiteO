@@ -31,31 +31,30 @@ const About = () => {
           Hi there, it's Van.
         </h1>
         <p className="pb-10 ">
-          Thank you for taking the time to visit my personal website. I am a
-          full-stack developer based in Ottawa, Canada. <br />
+          Thank you for taking the time to visit my personal website.
+          <br />I am a full-stack developer, a free-lancer, and content creator
+          based in Ottawa, Canada. <br />
           <br />
-          As a recent graduate from Algonquin College with a specialization in
+          Recently graduated from Algonquin College with a specialization in
           Computer Programming, I possess a wide range of skills in building web
-          applications, applications, software solutions and debugging. During
-          my education, I was working as a co-op intern web developer at
-          U+Education, an Education company, for a duration of four months. In
-          this role, I played a pivotal part in designing, updating, and
-          revamping the company's WordPress website, gaining valuable hands-on
-          experience.
+          applications, applications, software solutions and debugging. I was a
+          co-op intern web developer at U+Education in 4 months. I played a
+          pivotal part in designing, updating, and revamping the company's
+          WordPress website, gaining valuable hands-on experience. I currently
+          working on a website about driving school for my private client, and
+          working on tech videos on Youtube.
           <br />
           <br />
-          Passionate about designing innovative technology products, I am
-          constantly eager to learn and apply new skills and talents to drive
-          your organization's success. With my dedication and expertise, I am
-          confident in making a significant contribution to your team and
-          helping your organization thrive.
+          Passionate about designing innovative technology products and with my
+          dedication and expertise, I am confident in making a significant
+          contribution to your team and helping your organization thrive.
           <br />
         </p>
       </div>
       <p className="pl-10 pt-10">
         Bird Image source:{" "}
         <a href="https://www.wallpaperflare.com/beautiful-girl-with-colorful-hair-desktop-wallpaper-hd-for-mobile-phones-and-laptops-wallpaper-bhxbt">
-          wallpaperflare
+          <u> wallpaperflare</u>
         </a>
       </p>
       <Footer />
