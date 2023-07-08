@@ -7,8 +7,29 @@ const About = () => {
       <h1 className="text-5xl text-left pl-10 pt-10  font-bold">
         #1 Angela Yu: Empowering Women in Coding and Technology
       </h1>
-      <div className="text-left pt-10 pl-20 pr-96">
+      <img className="border-none pl-10 pt-10" src="imgs/AngelaYu.jpg" alt="" />
+      <div className="text-left pt-10 pl-10 pb-10 pr-96">
         <p>
+          Started learning to code at the age of 12. Didn't like the way Space
+          Invaders game was, her dad told her to change it and started to teach
+          her how to code. she was hooked on programming since then through
+          building a project with her dad.
+          <br />
+          As on her twitter saying: "I'm not a female coder, I'm a coder who
+          happens to be female."
+          <br />
+          Getting over the barrier of negative thinkings towards her of being
+          Asian and a women, she instead focuses on things that she can change
+          to build up her career. Her hard work and dedication have paid off. As
+          now she is a renowned role modle for many young girls and women to
+          look up to.
+          <br />
+          Whenever mentioning Udemy, her name and courses are always on the
+          recommended list about web development, Python, iOS App Development,
+          and so on. Her coding programs have helped numerous of people land a
+          dream job
+        </p>
+        {/* <p>
           In the world of coding and technology, it's essential to recognize the
           remarkable individuals who are breaking barriers and inspiring the
           next generation of developers. One such inspiring figure is Angela Yu,
@@ -76,8 +97,8 @@ const About = () => {
           remember that diversity and inclusivity are crucial in building a
           thriving and equitable tech community.
           <br />
-          Author: Chapgpt
-        </p>
+          Author: Chatgpt
+        </p> */}
       </div>
     </div>
   );
