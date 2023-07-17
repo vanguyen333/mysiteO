@@ -37,12 +37,8 @@ const About = () => {
           <br />
           Recently graduated from Algonquin College with a specialization in
           Computer Programming, I possess a wide range of skills in building web
-          applications, applications, software solutions and debugging. I was a
-          co-op intern web developer at U+Education in 4 months. I played a
-          pivotal part in designing, updating, and revamping the company's
-          WordPress website, gaining valuable hands-on experience. I currently
-          working on a website about driving school for my private client, and
-          working on tech videos on Youtube.
+          applications, applications, software solutions and debugging.
+          Currently I am building a website for a private client.
           <br />
           <br />
           Passionate about designing innovative technology products and with my
@@ -50,6 +46,10 @@ const About = () => {
           contribution to your team and helping your organization thrive.
           <br />
         </p>
+        {/*  I was a
+          co-op intern web developer at U+Education in 4 months. I played a
+          pivotal part in designing, updating, and revamping the company's
+          WordPress website, gaining valuable hands-on experience.  */}
       </div>
       <p className="pl-10 pt-10">
         Bird Image source:{" "}
