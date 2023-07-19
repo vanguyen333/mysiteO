@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="text-5xl font-bold pt-4">
           #1 Angela Yu: Empowering Women in Coding and Technology
         </h1>
-        <img className="border-none pt-4 w-50" src="imgs/AngelaYu.jpg" alt="" />
+        <img className="border-none pt-4 w-96" src="imgs/AngelaYu.jpg" alt="" />
         <div className="text-left pt-4">
           <p>
             Started learning to code at the age of 12. Didn't like the way Space
@@ -31,8 +31,14 @@ const About = () => {
             dream job.
           </p>
 
-          <h1 className="font-bold text-lg pt-6 pb-3"> Your message</h1>
-
+          <h1 className="font-bold text-lg pt-10  pb-3"> Your message</h1>
+          <input
+            required
+            type="text"
+            className="border-solid border-gray-200 bg-gray-50 border-2 p-2 md:text-md sm:w-1/4 mb-4"
+            placeholder="Name *"
+            name="user_name"
+          />
           <textarea
             id="message"
             rows="4"
@@ -40,6 +46,7 @@ const About = () => {
             placeholder="Write your thoughts here..."
           ></textarea>
         </div>
+
         <h1 className="text-5xl font-bold pt-4">
           #2 Exploring Web 3.0: The Future of Online Technology
         </h1>
