@@ -45,6 +45,9 @@ const About = () => {
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Write your thoughts here..."
           ></textarea>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Enter
+          </button>
         </div>
 
         <h1 className="text-5xl font-bold pt-4">
@@ -76,7 +79,7 @@ const About = () => {
           <br />
           <strong>How about Web 2.0?</strong>
           <br />
-          The websites we are using basically are Web 2.0. It refers to the
+          The websites we are using basically Web 2.0. It refers to the
           21st-century Internet applications that have transformed the digital
           era in the aftermath of the dotcom bubble. The term Web 2.0 first came
           into use in 1999 as the Internet pivoted toward a system that actively
