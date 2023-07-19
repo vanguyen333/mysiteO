@@ -3,7 +3,7 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about ">
-      <div className="pt-20  flex flex-col md:flex-row justify-center items-center gap-10  px-10">
+      <div className="pt-20  flex flex-col md:flex-row justify-center items-center gap-10   px-10">
         <div className="box img md:h-auto ">
           <img
             className="shadow-2xl h-32 border-none h-32 md:h-auto"
@@ -26,37 +26,40 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="content text-center sm:pl-32 sm:pr-32 lg:pl-52 lg:pr-52">
+      <div className="content text-center">
         <h1 className="h1headerabout font-serif ui-serif font-semibold text-center hover:system-ui text-4xl pt-10 pb-10">
           Hi there, it's Van.
         </h1>
-        <p className="pb-10 ">
-          Thank you for taking the time to visit my personal website.
-          <br />I am a full-stack developer, a free-lancer, and content creator
-          based in Ottawa, Canada. <br />
-          <br />
-          Recently graduated from Algonquin College with a specialization in
-          Computer Programming, I possess a wide range of skills in building web
-          applications, applications, software solutions and debugging.
-          Currently I am building a website for a private client.
-          <br />
-          <br />
-          Passionate about designing innovative technology products and with my
-          dedication and expertise, I am confident in making a significant
-          contribution to your team and helping your organization thrive.
-          <br />
-        </p>
-        {/*  I was a
+        <div className="lg:w-3/4 mx-auto px-4 py-6 sm:px-4 text-center ">
+          <p className="">
+            Thank you for taking the time to visit my personal website.
+            <br />I am a full-stack developer, a free-lancer, and content
+            creator based in Ottawa, Canada. <br />
+            <br />
+            Recently graduated from Algonquin College with a specialization in
+            Computer Programming, I possess a wide range of skills in building
+            web applications, applications, software solutions and debugging.
+            Currently I am building a website for a private client.
+            <br />
+            <br />
+            Passionate about designing innovative technology products and with
+            my dedication and expertise, I am confident in making a significant
+            contribution to your team and helping your organization thrive.
+            <br />
+          </p>
+          {/*  I was a
           co-op intern web developer at U+Education in 4 months. I played a
           pivotal part in designing, updating, and revamping the company's
           WordPress website, gaining valuable hands-on experience.  */}
+        </div>
+        <p className="pl-10 pt-10">
+          Bird Image source:{" "}
+          <a href="https://www.wallpaperflare.com/beautiful-girl-with-colorful-hair-desktop-wallpaper-hd-for-mobile-phones-and-laptops-wallpaper-bhxbt">
+            <u> wallpaperflare</u>
+          </a>
+        </p>
       </div>
-      <p className="pl-10 pt-10">
-        Bird Image source:{" "}
-        <a href="https://www.wallpaperflare.com/beautiful-girl-with-colorful-hair-desktop-wallpaper-hd-for-mobile-phones-and-laptops-wallpaper-bhxbt">
-          <u> wallpaperflare</u>
-        </a>
-      </p>
+
       <Footer />
     </div>
 

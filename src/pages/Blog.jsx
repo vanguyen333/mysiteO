@@ -40,7 +40,7 @@ const About = () => {
           alt="web123"
         />
         <p>
-          Image source:{" "}
+          Image source:
           <u>
             <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
               here
