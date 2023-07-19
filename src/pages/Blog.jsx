@@ -33,9 +33,27 @@ const About = () => {
         <h1 className="text-5xl text-left pl-10 pt-10  font-bold">
           #2 Exploring Web 3.0: The Future of Online Technology
         </h1>
+        <img className="border-none" src="imgs/web123.jpeg" alt="web123" />
+        <p>
+          Image source:{" "}
+          <u>
+            <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
+              here
+            </a>
+          </u>
+        </p>
         <p>
           <br />
-          <strong> What exactly is Web 2.0 ? </strong>
+          <strong>What exactly is web 1.0 ?</strong>
+          <br />
+          Web 1.0 is considered the first stage of the world wide web where
+          users has limited interaction with websites. During this era, websites
+          typically featured static content presented through simple HTML pages.
+          Users has limited opportunities to engage or interact on these early
+          websites.
+          <br />
+          <br />
+          <strong> How about Web 2.0 ? </strong>
           <br />
           The websites we are using basically are the Web 2.0, it refers to the
           21st-century Internet applications that have transformed the digital
@@ -48,6 +66,10 @@ const About = () => {
           perspectives, and opinions. Users can tag, share, tweet, and like.[1]
           <br /> <br />
           <strong> What is Web 3.0 ?</strong>
+          <br />
+          With the introduction of advanced technologies, Web 3.0 is expected to
+          take over the Internet in the near future. Web 3.0 allows users to
+          take control over their private data, which makes the web more secure.
         </p>
         <p>
           <br />
