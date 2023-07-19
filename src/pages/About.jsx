@@ -31,7 +31,7 @@ const About = () => {
           Hi there, it's Van.
         </h1>
         <div className="lg:w-3/4 mx-auto px-4 py-6 sm:px-4 text-center ">
-          <p className="">
+          <p>
             Thank you for taking the time to visit my personal website.
             <br />I am a full-stack developer, a free-lancer, and content
             creator based in Ottawa, Canada. <br />
@@ -52,8 +52,8 @@ const About = () => {
           pivotal part in designing, updating, and revamping the company's
           WordPress website, gaining valuable hands-on experience.  */}
         </div>
-        <p className="pl-10 pt-10">
-          Bird Image source:{" "}
+        <p className="pl-10 pt-10 pb-10">
+          Bird Image source:
           <a href="https://www.wallpaperflare.com/beautiful-girl-with-colorful-hair-desktop-wallpaper-hd-for-mobile-phones-and-laptops-wallpaper-bhxbt">
             <u> wallpaperflare</u>
           </a>
