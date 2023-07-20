@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useState } from "react";
 
 const About = () => {
   return (
@@ -95,12 +96,28 @@ const About = () => {
           With the introduction of advanced technologies, Web 3.0 is expected to
           take over the Internet in the near future. Web 3.0 allows users to
           take control over their private data, which makes the web more secure.
+          <br />
+          The core of Web 3.0 is blockchain technology which is decentralized
+          and distributed digital ledger that records transactions across
+          multiple computers in a secure and transparent manner. it consists of
+          a chain of blocks, where each block contains a group of transactions,
+          each block is linked to the previous one using cryptographic
+          principles. For more information, read{" "}
+          <strong>
+            <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
+              here
+            </a>
+          </strong>
         </p>
         <p>
           <br />
           <br />
-          References [1] what is Web 2.0 : link:
-          https://www.investopedia.com/terms/w/web-20.asp
+          <u> References</u>
+          <br />
+          [1] what is Web 2.0 :{" "}
+          <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
+            here
+          </a>
         </p>
       </div>
       <Footer />
