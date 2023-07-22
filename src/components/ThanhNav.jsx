@@ -6,6 +6,8 @@ import Blog from "../pages/Blog";
 import Courses from "../pages/Courses";
 import About from "../pages/About";
 import "./thanhnav.css";
+import HTML from "../pages/Html";
+import CanadianCitizenship from "../pages/CanadianCitizenship";
 
 const ThanhNav = () => {
   return (
@@ -49,6 +51,12 @@ const ThanhNav = () => {
                 <NavDropdown.Item as={NavLink} to="/courses/java">
                   Java
                 </NavDropdown.Item>
+                <NavDropdown.Item
+                  as={NavLink}
+                  to="/courses/canadianCitizenship"
+                >
+                  CanadianCitizenship
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
@@ -59,7 +67,9 @@ const ThanhNav = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/courses/html" element={<Courses course="HTML" />} />
+
+        <Route path="/courses/html" element={<HTML />} />
+
         <Route path="/courses/css" element={<Courses course="CSS" />} />
         <Route
           path="/courses/javascript"
@@ -67,6 +77,10 @@ const ThanhNav = () => {
         />
         <Route path="/courses/reactjs" element={<Courses course="ReactJS" />} />
         <Route path="/courses/java" element={<Courses course="Java" />} />
+        <Route
+          path="/courses/canadiancitizenship"
+          element={<CanadianCitizenship />}
+        />
       </Routes>
     </BrowserRouter>
   );

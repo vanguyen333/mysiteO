@@ -23,7 +23,7 @@ const Comment = () => {
       <input
         required
         type="text"
-        className="border-solid border-gray-200 bg-gray-50 border-2 p-2 md:text-sm sm:w-1/4 mb-4"
+        className="border-solid border-gray-200 bg-gray-50 border-2 p-2 text-sm md:text-sm sm:w-1/4 mb-4"
         placeholder="Name *"
         name="user_name"
         value={name}
