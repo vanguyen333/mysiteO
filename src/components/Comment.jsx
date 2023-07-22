@@ -1,16 +1,25 @@
 import React, { useState } from "react";
+
 const Comment = () => {
   const [name, setName] = useState("");
+  const [comment, setComment] = useState("");
   const [displayName, setDisplayName] = useState("");
-  const handleInputChange = (event) => {
+
+  const handleNameInputChange = (event) => {
     setName(event.target.value);
   };
-  const handleButtonClick = () => {
-    setDisplayName(name);
+
+  const handleCommentInputChange = (event) => {
+    setComment(event.target.value);
   };
+
+  const handleButtonClick = () => {
+    setDisplayName(`${name} : ${comment}`);
+  };
+
   return (
     <div className="comment">
-      <h1 className="font-bold text-lg pt-10  pb-3"> Your message</h1>
+      <h1 className="font-bold text-lg pt-10 pb-3"> Your message</h1>
       <input
         required
         type="text"
@@ -18,13 +27,15 @@ const Comment = () => {
         placeholder="Name *"
         name="user_name"
         value={name}
-        onChange={handleInputChange}
+        onChange={handleNameInputChange}
       />
       <textarea
         id="message"
         rows="4"
         className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         placeholder="Write your thoughts here..."
+        value={comment}
+        onChange={handleCommentInputChange}
       ></textarea>
       <button
         onClick={handleButtonClick}
