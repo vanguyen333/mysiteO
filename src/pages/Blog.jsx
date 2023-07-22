@@ -64,7 +64,7 @@ const Blog = () => {
           >
             Enter
           </button>
-          {displayName}
+          <p className="py-7 font-bold text-blue-700"> {displayName}</p>
         </div>
 
         <h1 className="text-5xl font-bold pt-4">
