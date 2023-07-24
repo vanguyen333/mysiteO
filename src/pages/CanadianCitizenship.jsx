@@ -1,4 +1,5 @@
 import Chapter1 from "../CitizenCompo/Chapter1";
+import Chapter2 from "../CitizenCompo/Chapter2";
 import Contents from "../CitizenCompo/Contents";
 const CanadianCitizenship = () => {
   return (
@@ -20,6 +21,7 @@ const CanadianCitizenship = () => {
       </div>
       <Contents />
       <Chapter1 />
+      <Chapter2 />
     </div>
   );
 };
