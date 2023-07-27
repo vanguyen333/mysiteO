@@ -5,7 +5,7 @@ const Chapter2 = () => {
         Chapter 2: Rights and Responsibilities of Citizenship
       </h1>
       <p>
-        <span className="font-bold">1) Canadian law's sources:</span>
+        <span className="font-bold">1- Canadian law's sources:</span>
 
         <li> Laws passed by Parliament and provincial legislatures</li>
         <li> English common law</li>
@@ -13,7 +13,7 @@ const Chapter2 = () => {
         <li> the unwritten consititution inherited from Great Britan</li>
 
         <span className="font-bold">
-          2) Magna Carta - The Great Charter of Freedoms - 1215
+          2- Magna Carta - The Great Charter of Freedoms - 1215
         </span>
         <li>Free dom of conscience and religion</li>
         <li>
@@ -23,13 +23,13 @@ const Chapter2 = () => {
         <li>Freedom of peaceful and assembly</li>
         <li>Freedom of association</li>
       </p>
-      <span className="font-bold">3) Habeas corpus</span>
+      <span className="font-bold">3- Habeas corpus</span>
       <li>
         The right to challenge unlawful detention by the state, from English
         commmon law.
       </li>
       <span className="font-bold">
-        4) The Constitution of Canada was amended in 1982 to entrench the
+        4- The Constitution of Canada was amended in 1982 to entrench the
         Canadian Charter of Rights and Free doms
       </span>
       <li>
@@ -37,7 +37,7 @@ const Chapter2 = () => {
         of God and the rule of law
       </li>
       <span className="font-bold">
-        5) The Canadian Charter of Rights and Freedoms
+        5- The Canadian Charter of Rights and Freedoms
       </span>
       <li>
         Mobility Rights — Canadians can live and work anywhere they choose in
@@ -117,22 +117,22 @@ const Chapter2 = () => {
       <div className="font-bold text-blue-700 text-2xl py-6">
         Exercise - Chapter 2
       </div>
-      <span>1) Where Habeas corpus come from?</span>
+      <span>1- Where Habeas corpus come from?</span>
       <li> English common law</li>
       <li> Canada's law</li>
       <li> France civil law</li>
-      <span>2) One of Canadian law's source is English common law</span>
+      <span>2- One of Canadian law's source is English common law</span>
       <li>True</li>
       <li>False</li>
-      <span>3) Everyone has to serve in military service in Canada</span>
+      <span>3- Everyone has to serve in military service in Canada</span>
       <li>True</li>
       <li>False</li>
-      <span>4) What does Magna Carta refer to?</span>
+      <span>4- What does Magna Carta refer to?</span>
       <li>Freedom of association</li>
       <li>English common law</li>
       <li>The Great Charter of Freedoms</li>
       <li>civil code of France</li>
-      <span>5) Men and women are not equal under the law.</span>
+      <span>5- Men and women are not equal under the law.</span>
       <li>True</li>
       <li>False</li>
     </div>

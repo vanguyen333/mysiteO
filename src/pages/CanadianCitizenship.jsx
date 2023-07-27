@@ -2,6 +2,7 @@ import Chapter1 from "../CitizenCompo/Chapter1";
 import Chapter2 from "../CitizenCompo/Chapter2";
 import Contents from "../CitizenCompo/Contents";
 import Footer from "../components/Footer";
+
 const CanadianCitizenship = () => {
   return (
     <div className="">
@@ -23,7 +24,8 @@ const CanadianCitizenship = () => {
       <Contents />
       <Chapter1 />
       <Chapter2 />
-      <Footer />
+
+      {/* <Footer /> */}
     </div>
   );
 };

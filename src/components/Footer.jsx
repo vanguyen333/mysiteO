@@ -16,7 +16,7 @@ const Footer = () => {
           />
         </a>
         <a href="https://www.linkedin.com/in/van-nguyen-2aa017224/">
-          <img className="h-6 border-none" src="./imgs/linkedin.svg" />{" "}
+          <img className="h-6 border-none" src="./imgs/linkedin.svg" />
         </a>
       </div>
     </div>

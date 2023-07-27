@@ -11,17 +11,10 @@ const Chapter1 = () => {
         requirements. Your application may take several months.
         <br />
         <span className="underline"> Citizenship Test requirements: </span>
-        <ul>
-          <li> Know adequate English/French</li>
-          <li>
-            knowledge of Canada and of the rights and responsibilities of
-            citizenship
-          </li>
-          <li>
-            Adult applicants 55 years of age and over do not need to write the
-            citizenship test
-          </li>
-        </ul>
+        Know adequate English/French <br />
+        knowledge of Canada and of the rights and responsibilities of
+        citizenship Adult applicants <br />
+        55 years of age and over do not need to write the citizenship test
         <br />
       </p>
     </div>

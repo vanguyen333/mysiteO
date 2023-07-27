@@ -17,6 +17,7 @@ const ThanhNav = () => {
         collapseOnSelect
         expand="xl"
         variant="dark"
+        fixed="top"
       >
         <Container>
           <Navbar.Brand href="/">
@@ -26,7 +27,7 @@ const ThanhNav = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto flex flex-end text-lg ">
-              <Nav.Link as={NavLink} to="/" exact>
+              <Nav.Link as={NavLink} to="/" exact={CSSMathValue.toString()}>
                 Home
               </Nav.Link>
               <Nav.Link as={NavLink} to="/about">
