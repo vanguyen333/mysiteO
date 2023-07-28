@@ -2,9 +2,9 @@ import Footer from "../components/Footer";
 
 const Html = () => {
   return (
-    <div className="html">
-      Let's learn HTML
-      {/* <Footer /> */}
+    <div className="pt-20">
+      <h1> Let's learn HTML</h1>
+      <Footer />
     </div>
   );
 };
