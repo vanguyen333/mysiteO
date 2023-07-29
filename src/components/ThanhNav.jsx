@@ -8,6 +8,8 @@ import About from "../pages/About";
 import "./thanhnav.css";
 import HTML from "../pages/Html";
 import CanadianCitizenship from "../pages/CanadianCitizenship";
+import Java from "../pages/Java";
+import ReactJS from "../pages/ReactJS";
 
 const ThanhNav = () => {
   return (
@@ -36,6 +38,7 @@ const ThanhNav = () => {
               <Nav.Link as={NavLink} to="/blog">
                 Blog
               </Nav.Link>
+
               <NavDropdown title="Courses" id="collasible-nav-dropdown">
                 <NavDropdown.Item as={NavLink} to="/courses/html">
                   HTML
@@ -76,8 +79,8 @@ const ThanhNav = () => {
           path="/courses/javascript"
           element={<Courses course="JavaScript" />}
         />
-        <Route path="/courses/reactjs" element={<Courses course="ReactJS" />} />
-        <Route path="/courses/java" element={<Courses course="Java" />} />
+        <Route path="/courses/reactjs" element={<ReactJS />} />
+        <Route path="/courses/java" element={<Java />} />
         <Route
           path="/courses/canadiancitizenship"
           element={<CanadianCitizenship />}

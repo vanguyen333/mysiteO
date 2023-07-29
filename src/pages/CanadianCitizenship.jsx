@@ -48,6 +48,7 @@ const CanadianCitizenship = () => {
       <Contents />
       <Chapter1 />
       <Chapter2 />
+      {/* <Paginationn /> */}
       <Footer />
     </div>
   );
