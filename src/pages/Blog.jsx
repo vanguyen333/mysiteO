@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="md:flex-row">
       <div className="md:w-3/4 mx-auto px-4 py-6">
-        <h1 className="text-5xl font-bold pt-4">#0 Quote of the day</h1>
+        <h1 className="text-5xl font-bold pt-24">#0 Quote of the day</h1>
         <p>Discover what your today's quote is, have fun!</p>
         <h1 className="text-5xl font-bold pt-4">
           #1 Angela Yu: Empowering Women in Coding and Technology

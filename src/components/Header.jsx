@@ -49,7 +49,7 @@ const Header = () => {
         </Container>
       </Navbar> */}
       {/* d6f4f8 */}
-      <div className="homecl">
+      <div className="homecl pt-20">
         <h1 className=" h1headercl font-serif ui-serif font-semibold text-center hover:system-ui text-[#d6f4f8] text-6xl ">
           Looking for a developer?
         </h1>
@@ -57,7 +57,7 @@ const Header = () => {
           I am a full stack developer. I develop applications, software and web
           applications.
         </h2>
-        <img className="waterhd w-full" src="/imgs/Water.png" alt="water" />
+        <img className="waterhd w-full " src="/imgs/Water.png" alt="water" />
       </div>
     </div>
   );
