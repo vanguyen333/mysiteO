@@ -1,28 +1,38 @@
 import Footer from "../components/Footer";
+import MotionImages from "../components/MotionImage";
 import "./about.css";
+import React from "react";
+import { useSpring, animated } from "react-spring";
 const About = () => {
+  const styles = useSpring({
+    from: { opacity: 0, transform: "scale(0.8)" },
+    to: { opacity: 1, transform: "scale(1)" },
+  });
   return (
     <div className="about ">
       <div className="pt-32  flex flex-col md:flex-row justify-center items-center gap-10   px-10">
         <div className="box img md:h-auto ">
-          <img
+          <animated.img
             className="shadow-2xl h-32 border-none h-32 md:h-auto"
             src="imgs/bird.jpg"
             alt="bird"
+            style={styles}
           />
         </div>
         <div className=" box img md:h-auto">
-          <img
+          <animated.img
             className="shadow-2xl h-32 border-none rounded-3xl  md:h-auto"
             src="imgs/me.jpeg"
             alt="metuplip"
+            style={styles}
           />
         </div>
         <div className="box img md:h-auto">
-          <img
+          <animated.img
             className="shadow-2xl h-32 border-none md:h-auto "
             src="imgs/bird.jpg"
             alt="bird"
+            style={styles}
           />
         </div>
       </div>
