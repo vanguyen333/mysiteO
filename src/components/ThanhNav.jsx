@@ -10,6 +10,8 @@ import HTML from "../pages/Html";
 import CanadianCitizenship from "../pages/CanadianCitizenship";
 import Java from "../pages/Java";
 import ReactJS from "../pages/ReactJS";
+import CSS from "../pages/CSS";
+import JavaScript from "../pages/JavaScript";
 
 const ThanhNav = () => {
   return (
@@ -74,11 +76,8 @@ const ThanhNav = () => {
 
         <Route path="/courses/html" element={<HTML />} />
 
-        <Route path="/courses/css" element={<Courses course="CSS" />} />
-        <Route
-          path="/courses/javascript"
-          element={<Courses course="JavaScript" />}
-        />
+        <Route path="/courses/css" element={<CSS />} />
+        <Route path="/courses/javascript" element={<JavaScript />} />
         <Route path="/courses/reactjs" element={<ReactJS />} />
         <Route path="/courses/java" element={<Java />} />
         <Route

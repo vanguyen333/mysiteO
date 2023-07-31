@@ -98,9 +98,11 @@ const Blog = () => {
           <u> References</u>
           <br />
           [1] what is Web 2.0 :{" "}
-          <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
-            here
-          </a>
+          <u>
+            <a href="https://hegias.com/en/knowledge/web-3-0-metaverse-meaning-use-cases-differences-future/">
+              here
+            </a>
+          </u>
         </p>
       </div>
       <Footer />
