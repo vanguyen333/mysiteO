@@ -1,7 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Comment from "../components/Comment";
+import { useSpring, animated } from "react-spring";
 const Blog = () => {
+  const styles = useSpring({
+    from: { opacity: 0, transform: "scale(0.8)" },
+    to: { opacity: 1, transform: "scale(1)" },
+  });
   return (
     <div className="md:flex-row">
       <div className="md:w-3/4 mx-auto px-4 py-6">
@@ -10,7 +15,12 @@ const Blog = () => {
         <h1 className="text-5xl font-bold pt-4">
           #1 Angela Yu: Empowering Women in Coding and Technology
         </h1>
-        <img className="border-none pt-4 w-96" src="imgs/AngelaYu.jpg" alt="" />
+        <animated.img
+          className="border-none pt-4 w-96"
+          src="imgs/AngelaYu.jpg"
+          alt=""
+          style={styles}
+        />
         <div className="text-left pt-4">
           <p>
             Started learning to code at the age of 12. Didn't like the way Space
