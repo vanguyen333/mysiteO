@@ -16,7 +16,7 @@ const Blog = () => {
           #1 Angela Yu: Empowering Women in Coding and Technology
         </h1>
         <animated.img
-          className="border-none pt-4 w-96"
+          className="border-none pt-4 w-96 shadow-xl"
           src="imgs/AngelaYu.jpg"
           alt=""
           style={styles}
@@ -114,7 +114,9 @@ const Blog = () => {
             </a>
           </u>
         </p>
+        <h1 className="text-5xl font-bold pt-4">#4 Thinking</h1>
       </div>
+
       <Footer />
     </div>
   );

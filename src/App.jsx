@@ -9,14 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import ThanhNav from "./components/ThanhNav";
-// import { Header, Home, Blog } from "../pages";
+
 const App = () => {
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <div>Hello world!</div>,
-  //   },
-  // ]);
   return (
     <div>
       <ThanhNav />
