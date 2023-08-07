@@ -49,8 +49,10 @@ const About = () => {
             <br />
             Recently graduated from Algonquin College with a specialization in
             Computer Programming, I possess a wide range of skills in building
-            web applications, applications, software solutions and debugging.
-            Currently I am building a website for a private client.
+            web applications, applications, software solutions and debugging. I
+            have a strong desire to acquire knowledge about new technologies,
+            and this website serves as a prime example, especially since ReactJS
+            was not covered in my college curriculum.
             <br />
             <br />
             Passionate about designing innovative technology products and with

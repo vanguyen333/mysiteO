@@ -45,7 +45,7 @@ const Blog3 = () => {
         <br />
         We all know that the majority of our bodies consist of water, but little
         do we realize that every single thought or word we generate impact our
-        bodies significantly.
+        body greatly.
       </p>
     </div>
   );
