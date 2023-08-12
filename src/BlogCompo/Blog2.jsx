@@ -1,13 +1,19 @@
+import { useSpring, animated } from "react-spring";
 const Blog2 = () => {
+  const styles = useSpring({
+    from: { opacity: 0, transform: "scale(0.8)" },
+    to: { opacity: 1, transform: "scale(1)" },
+  });
   return (
     <div>
       <h1 className="text-5xl font-bold pt-4">
         #2 Exploring Web 3.0: The Future of Online Technology
       </h1>
-      <img
+      <animated.img
         className="border-none pt-4 w-full"
         src="imgs/web123.jpeg"
         alt="web123"
+        style={styles}
       />
       <p>
         Image source:

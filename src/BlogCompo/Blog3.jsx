@@ -1,4 +1,9 @@
+import { useSpring, animated } from "react-spring";
 const Blog3 = () => {
+  const styles = useSpring({
+    from: { opacity: 0, transform: "scale(0.8)" },
+    to: { opacity: 1, transform: "scale(1)" },
+  });
   return (
     <div>
       <h1 className="text-5xl font-bold pt-4">
@@ -31,7 +36,12 @@ const Blog3 = () => {
         and negative words produced the oppositive result.
         <br /> <br />
         Below are some images of water effects on a specific task.
-        <img className="pt-4" src="imgs/waterExperi.jpeg" alt="" />
+        <animated.img
+          className="pt-4"
+          src="imgs/waterExperi.jpeg"
+          alt=""
+          style={styles}
+        />
         <br />
         Source:{" "}
         <a href=" https://betterbelieveit.net/masaru-emotos-experiments-water/">
