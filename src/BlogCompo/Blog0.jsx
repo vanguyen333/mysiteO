@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 const Blog0 = () => {
-  const researchTitles = [
+  const quotes = [
     "I am capable of doing anything I want.",
     "I am capable, driven, and ready to achieve  my goals.",
     "I am a talented and successful person in every aspect of my life.",
     "I embrace difficulties and challenges as they are a crucial foundation for me to create opportunities.",
-    "I am creating a work life that inspiries and motivates me",
+    "I am creating a work life that inspiries and motivates me.",
     "I am grateful for another wonderful day where I can write great things in the next chapter in the book of my journey.",
     "I attract positivity and abundance into my life.",
     "I am resilient and can overcome any challenges.",
@@ -22,30 +22,36 @@ const Blog0 = () => {
     "I choose positivity and maintain an optimistic outlook on life. I focus on the good in every situation and express gratitude for the lessons and blessings that come my way.",
     "I radiate positivity, uplifting others with my words and actions. My positive energy has a ripple effect, creating a harmonious environment around me.",
   ];
-  const getRandomResearchTitle = () => {
-    return researchTitles[Math.floor(Math.random() * researchTitles.length)];
+  const getRandomQuotes = () => {
+    return quotes[Math.floor(Math.random() * quotes.length)];
   };
-  const [researchTitle, setResearchTitle] = useState(getRandomResearchTitle());
+  const [researchTitle, setResearchTitle] = useState(getRandomQuotes());
 
   const handleClick = () => {
-    const newResearchTitle = getRandomResearchTitle();
+    const newResearchTitle = getRandomQuotes();
     setResearchTitle(newResearchTitle);
   };
   return (
     <div>
       <h1 className="text-5xl font-bold pt-24">#0 Quote of the day</h1>
-      <p className="pt-10 font-bold">
-        Discover what your today's quote is, have fun!
+      <p className="pt-10 font-bold text-xl text-blue-400">
+        Discover what your today's quote is, it's about positive affirmations,
+        have fun!
       </p>
-      <button
-        onClick={handleClick}
-        className="border px-2 py-2 mt-4 font-bold text-white rounded bg-blue-500"
-      >
-        Generate Quotes.
-      </button>
-      <h1 className="text-xl font-semibold pt-4">
-        Random Quote: {researchTitle}
-      </h1>
+      <div className="items-center justify-center">
+        <button
+          onClick={handleClick}
+          className="border px-2 py-2 mt-4 font-bold text-white rounded bg-red-500 "
+        >
+          Generate Quotes.
+        </button>
+      </div>
+      <div class="bg-gradient-to-r from-cyan-500 to-blue-500 ... rounded">
+        {" "}
+        <h1 className="py-4 px-4 text-3xl my-3 font-semibold pt-4 text-white font-bold">
+          {researchTitle}
+        </h1>
+      </div>
     </div>
   );
 };
