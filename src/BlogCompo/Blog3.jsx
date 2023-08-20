@@ -11,8 +11,8 @@ const Blog3 = () => {
       </h1>
       <p className="pt-4">
         Grateful itself is a positive affirmation. Commencing each day by
-        acknowledging my gratitude for present and future blessings consistently
-        engenders feelings of joy and a sense of being blessed.
+        acknowledging our gratitude for present and future blessings
+        consistently engenders feelings of joy and a sense of being blessed.
         <br />
         The reason is because embracing gratitude initiates a positive mental
         state, our body stimuates a surge of optimistic thoughts within our
