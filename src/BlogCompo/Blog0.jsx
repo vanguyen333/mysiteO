@@ -25,11 +25,11 @@ const Blog0 = () => {
   const getRandomQuotes = () => {
     return quotes[Math.floor(Math.random() * quotes.length)];
   };
-  const [researchTitle, setResearchTitle] = useState(getRandomQuotes());
+  const [title, setTitle] = useState(getRandomQuotes());
 
   const handleClick = () => {
     const newResearchTitle = getRandomQuotes();
-    setResearchTitle(newResearchTitle);
+    setTitle(newResearchTitle);
   };
   return (
     <div>
@@ -46,10 +46,10 @@ const Blog0 = () => {
           Generate Quotes.
         </button>
       </div>
-      <div class="bg-gradient-to-r from-cyan-500 to-blue-500 ... rounded">
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 ... rounded">
         {" "}
         <h1 className="py-4 px-4 text-3xl my-3 font-semibold pt-4 text-white font-bold">
-          {researchTitle}
+          {title}
         </h1>
       </div>
     </div>
