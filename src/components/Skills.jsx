@@ -46,7 +46,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/1.png"
+            src="imgs/web.png"
             alt=""
           />
         </div>
@@ -54,7 +54,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/2.png"
+            src="imgs/html.png"
             alt=""
           />
         </div>
@@ -62,7 +62,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/3.png"
+            src="imgs/css.png"
             alt=""
           />
         </div>
@@ -70,7 +70,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/4.png"
+            src="imgs/javaScript.png"
             alt=""
           />
         </div>
@@ -78,7 +78,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/5.png"
+            src="imgs/sass.png"
             alt=""
           />
         </div>
@@ -86,7 +86,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/6.png"
+            src="imgs/bootstrap.png"
             alt=""
           />
         </div>
@@ -94,7 +94,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/7.png"
+            src="imgs/tailwind.png"
             alt=""
           />
         </div>
@@ -102,7 +102,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/8.png"
+            src="imgs/vite.png"
             alt=""
           />
         </div>
@@ -110,7 +110,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/9.png"
+            src="imgs/nodejs.png"
             alt=""
           />
         </div>
@@ -118,7 +118,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/10.png"
+            src="imgs/wordpress.png"
             alt=""
           />
         </div>
@@ -126,7 +126,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/11.png"
+            src="imgs/database.png"
             alt=""
           />
         </div>
@@ -134,7 +134,7 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/12.png"
+            src="imgs/mysql.png"
             alt=""
           />
         </div>
@@ -142,7 +142,49 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
-            src="imgs/13.png"
+            src="imgs/neo4j.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/mongo.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/oracle.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/others.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/java.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/linux.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
+            src="imgs/cobol.png"
             alt=""
           />
         </div>
