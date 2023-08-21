@@ -60,10 +60,6 @@ const About = () => {
             contribution to your team and helping your organization thrive.
             <br />
           </p>
-          {/*  I was a
-          co-op intern web developer at U+Education in 4 months. I played a
-          pivotal part in designing, updating, and revamping the company's
-          WordPress website, gaining valuable hands-on experience.  */}
         </div>
         <p className="pl-10 pt-10 pb-10">
           Bird Image source:

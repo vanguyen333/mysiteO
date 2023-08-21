@@ -34,7 +34,7 @@ const Blog2 = () => {
         <br />
         Web 1.0 is considered the first stage of the World Wide Web where users
         have limited interaction with websites.
-      </p>
+      </p>{" "}
       {open && (
         <p>
           During this era, websites typically featured static content presented
