@@ -177,6 +177,13 @@ const Skills = () => {
         <div className="box px-3.5">
           <img
             className="rounded-3xl border-none shadow-md"
+            src="imgs/android.png"
+            alt=""
+          />
+        </div>
+        <div className="box px-3.5">
+          <img
+            className="rounded-3xl border-none shadow-md"
             src="imgs/linux.png"
             alt=""
           />
