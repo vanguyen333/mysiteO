@@ -15,7 +15,7 @@ const Blog2 = () => {
         #2 Exploring Web 3.0: The Future of Online Technology
       </h1>
       <animated.img
-        className="border-none pt-4 w-full"
+        className="border-none pt-4  "
         src="imgs/web123.jpeg"
         alt="web123"
         style={styles}

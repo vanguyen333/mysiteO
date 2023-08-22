@@ -63,7 +63,9 @@ const Blog3 = () => {
           <br />
           We all know that the majority of our bodies consist of water, but
           little do we realize that every single thought or word we generate
-          impact our body greatly.
+          impact our body greatly. Therefore, our body would greatly appreciate
+          if we embrace our mental and physically health by thinking and saying
+          positive words.
         </p>
       )}
       <button
