@@ -11,7 +11,7 @@ const Blog3 = () => {
   };
   return (
     <div>
-      <h1 className="text-5xl font-bold pt-4">
+      <h1 className="text-5xl font-bold pt-4 text-gray-700">
         #3 How 'GRATEFUL' can lead to Happiness?
       </h1>
       <p className="pt-4">

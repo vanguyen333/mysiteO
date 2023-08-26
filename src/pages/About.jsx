@@ -21,8 +21,8 @@ const About = () => {
         </div>
         <div className=" box img md:h-auto">
           <animated.img
-            className="shadow-2xl h-32 border-none rounded-3xl  md:h-auto"
-            src="imgs/me.jpeg"
+            className="shadow-2xl h-24 border-none rounded-3xl  md:h-auto"
+            src="imgs/downtown.jpeg"
             alt="metuplip"
             style={styles}
           />

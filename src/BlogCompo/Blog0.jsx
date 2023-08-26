@@ -33,7 +33,9 @@ const Blog0 = () => {
   };
   return (
     <div>
-      <h1 className="text-5xl font-bold pt-24">#0 Quote of the day</h1>
+      <h1 className="text-5xl font-bold pt-24 text-gray-700">
+        #0 Quote of the day
+      </h1>
       <p className="pt-10 font-bold text-xl text-blue-400">
         Discover what your today's quote is, it's about positive affirmations,
         have fun!

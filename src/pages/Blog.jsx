@@ -16,7 +16,7 @@ const Blog = () => {
         <BlogIntro />
         <Blog2 />
         <Blog3 />
-        <Comment />
+        {/* <Comment /> */}
       </div>
 
       <Footer />

@@ -11,7 +11,7 @@ const Blog2 = () => {
   };
   return (
     <div>
-      <h1 className="text-5xl font-bold pt-4">
+      <h1 className="text-5xl font-bold pt-4 text-gray-700">
         #2 Exploring Web 3.0: The Future of Online Technology
       </h1>
       <animated.img
