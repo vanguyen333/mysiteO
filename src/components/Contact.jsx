@@ -32,8 +32,8 @@ const Contact = () => {
       </h1>
 
       <form ref={form} onSubmit={sendEmail}>
-        <div className="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
-          <div className="grid grid-cols-2 gap-4 max-w-xl m-auto">
+        <div className="  py-10 px-5 m-auto w-full mt-10">
+          <div className="grid  grid-cols-2 gap-4 max-w-xl m-auto">
             <div className="col-span-2 lg:col-span-1">
               <input
                 type="text"

@@ -17,7 +17,7 @@ const ThanhNav = () => {
   return (
     <BrowserRouter>
       <Navbar
-        className="headercl px-24"
+        className="headercl  px-24"
         collapseOnSelect
         expand="xl"
         variant="dark"
@@ -31,7 +31,7 @@ const ThanhNav = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto flex flex-end text-lg ">
-              <Nav.Link as={NavLink} to="/" exact={CSSMathValue.toString()}>
+              <Nav.Link as={NavLink} to="/" exact="true">
                 Home
               </Nav.Link>
               <Nav.Link as={NavLink} to="/about">
