@@ -17,7 +17,7 @@ const ThanhNav = () => {
   return (
     <BrowserRouter>
       <Navbar
-        className="headercl  px-24"
+        className="headercl  px-24 md:mb-10"
         collapseOnSelect
         expand="xl"
         variant="dark"
@@ -41,7 +41,7 @@ const ThanhNav = () => {
                 Blog
               </Nav.Link>
 
-              <NavDropdown title="Courses" id="collasible-nav-dropdown">
+              {/* <NavDropdown title="Courses" id="collasible-nav-dropdown">
                 <NavDropdown.Item as={NavLink} to="/courses/html">
                   HTML
                 </NavDropdown.Item>
@@ -63,7 +63,7 @@ const ThanhNav = () => {
                 >
                   CanadianCitizenship
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
