@@ -7,13 +7,14 @@ import Blog0 from "../BlogCompo/Blog0";
 import Blog2 from "../BlogCompo/Blog2";
 import Blog3 from "../BlogCompo/Blog3";
 import BlogIntro from "../BlogCompo/BlogIntro";
+import Blog1a from "../BlogCompo/Blog1a";
 
 const Blog = () => {
   return (
     <div className="md:flex-row">
       <div className="md:w-3/4 mx-auto px-4 py-6">
         <Blog0 />
-        {/* <BlogIntro /> */}
+        <Blog1a />
         <Blog2 />
         <Blog3 />
         {/* <Comment /> */}

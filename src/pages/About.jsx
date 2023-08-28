@@ -22,7 +22,7 @@ const About = () => {
         <div className=" box img md:h-auto">
           <animated.img
             className="shadow-2xl h-24 border-none rounded-3xl  md:h-auto"
-            src="imgs/downtown.jpeg"
+            src="imgs/dt.jpeg"
             alt="metuplip"
             style={styles}
           />
