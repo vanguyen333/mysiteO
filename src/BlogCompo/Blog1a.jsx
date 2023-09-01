@@ -20,11 +20,11 @@ const Blog1a = () => {
         computer) that is connected to the internet and accessible 24/7. This is
         where hosting comes in.
         <br />
-        <h2 className="font-bold py-3 text-lg">
+        <span className="font-bold py-3 text-lg">
           {" "}
           Looking for reliable web hosting?{" "}
-        </h2>
-        <p>
+        </span>
+        <span>
           {" "}
           Look no further than{" "}
           <span className="font-bold text-red-400">Hostinger</span> ! Hostinger
@@ -49,7 +49,7 @@ const Blog1a = () => {
           Don't miss out on this opportunity to get started with high-quality
           hosting services at an affordable price. Join the Hostinger community
           today and take your online presence to the next level!
-        </p>
+        </span>
       </p>
     </div>
   );
