@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Home from "../pages/Home";
 import Blog from "../pages/Blog";
-import Courses from "../pages/Courses";
+// import Courses from "../pages/Courses";
 import About from "../pages/About";
 import "./thanhnav.css";
 import HTML from "../pages/Html";
