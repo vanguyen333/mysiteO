@@ -7,6 +7,7 @@ export default defineConfig({
   devServer: {
     historyApiFallback: true,
   },
+  publicPath: "/",
 });
 
 //This help reload the pages without 404 error, historyApiFallback

@@ -40,7 +40,11 @@ const ThanhNav = () => {
               <Nav.Link as={NavLink} to="/blog">
                 Blog
               </Nav.Link>
+              {/* instead of this */}
+              {/* <Link to="/about">About</Link>
 
+               // Use this:
+              <Link to={`${process.env.PUBLIC_URL}/about`}>About</Link> */}{" "}
               {/* <NavDropdown title="Courses" id="collasible-nav-dropdown">
                 <NavDropdown.Item as={NavLink} to="/courses/html">
                   HTML

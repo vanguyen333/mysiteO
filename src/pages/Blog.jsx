@@ -8,6 +8,7 @@ import Blog2 from "../BlogCompo/Blog2";
 import Blog3 from "../BlogCompo/Blog3";
 import BlogIntro from "../BlogCompo/BlogIntro";
 import Blog1a from "../BlogCompo/Blog1a";
+import Blog4 from "../BlogCompo/Blog4";
 
 const Blog = () => {
   return (
@@ -17,6 +18,7 @@ const Blog = () => {
         <Blog1a />
         <Blog2 />
         <Blog3 />
+        <Blog4 />
         {/* <Comment /> */}
       </div>
 
