@@ -44,8 +44,8 @@ const About = () => {
         <div className="lg:w-3/4 mx-auto px-4 py-6 sm:px-4 text-center ">
           <p>
             Thank you for taking the time to visit my personal website.
-            <br />I am a full-stack developer, a free-lancer, and content
-            creator based in Ottawa, Canada. <br />
+            {/* <br />I am a full-stack developer, a free-lancer, and content
+            creator based in Ottawa, Canada. <br /> */}
             <br />
             Recently graduated from Algonquin College with a specialization in
             Computer Programming, I possess a wide range of skills in building

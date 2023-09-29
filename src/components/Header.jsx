@@ -9,7 +9,9 @@ const Header = ({ text, delay, infinite }) => {
         </h1>
         <h2 className="text-xl md:text-2xl text-[#ffffff] text-center py-10 md:py-5">
           <ReactTyped
-            strings={["I'm your full stack solution."]}
+            strings={[
+              "Computer Programming student looking for an opportunity!",
+            ]}
             typeSpeed={50}
             loop
           />

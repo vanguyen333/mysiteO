@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-import Sidethanh from "../components/Sidethanh";
 
 const Courses = () => {
   return (

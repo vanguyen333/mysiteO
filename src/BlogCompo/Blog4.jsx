@@ -19,7 +19,8 @@ const Blog4 = () => {
         {" "}
         The Loretto Chapel in Santa Fe, New Mexico, boasts an extraordinary feat
         of carpentry.
-      </p>
+      </p>{" "}
+      <br />
       {open && (
         <p>
           The renowned Loretto Chapel staircase in Santa Fe, New Mexico, has
@@ -27,7 +28,8 @@ const Blog4 = () => {
           creator and the remarkable physics underlying its construction. The
           fact that this structure stands without any central support has left
           many regarding it as a miraculous marvel. It is undeniably an
-          architectural wonder in this regard. <br />
+          architectural wonder in this regard. <br /> <br />
+          <img src="imgs/woodenLadder.png" alt="" /> <br />
           In 1852, at the behest of the then Bishop of Santa Fe, Jean Baptiste
           Lamy, the Chapel of Our Lady of Light, inspired by the Sainte-Chapelle
           in Paris, was constructed. It was entrusted to the care of the Sisters
@@ -45,7 +47,7 @@ const Blog4 = () => {
           staircase, builders declared it impossible, arguing that a
           conventional ladder would consume too much space. They even suggested
           demolishing the choir.
-          <br />
+          <br /> <br />
           Undeterred, the nuns prayed a novena to St. Joseph, the patron saint
           of carpenters, seeking an alternative solution. Upon completing the
           novena, a mysterious man appeared at the chapel's door, offering to
@@ -60,7 +62,8 @@ const Blog4 = () => {
           support – an impressive architectural achievement. However, the
           original staircase remained unattached to any wall until 1887, when a
           railing was added, and the outer spiral was connected to a nearby
-          pillar. According to the same enduring traditions, the identity of the
+          pillar. <br />
+          <br /> According to the same enduring traditions, the identity of the
           carpenter remains an unsolved mystery. There is no documentation to
           trace the origin of the wood used, though some local historians claim
           the nuns may hold such information in their archives. Throughout those
@@ -69,10 +72,13 @@ const Blog4 = () => {
           him, the Sisters of Loretto offered a reward for anyone who could
           reveal his identity. Nevertheless, no one came forward. Consequently,
           the crafting of the staircase has been attributed to St. Joseph
-          himself.
+          himself. <br />
+          <br />
           <span>
-            Source:
-            https://aleteia.org/2016/07/06/the-staircase-st-joseph-built-in-new-mexico/
+            Source:{" "}
+            <a href="   https://aleteia.org/2016/07/06/the-staircase-st-joseph-built-in-new-mexico/">
+              click here
+            </a>
           </span>
         </p>
       )}
