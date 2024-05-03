@@ -1,6 +1,9 @@
 # mysiteO
 
-This is my personal website built using ReactJS, vite, tailwindcss, Bootstrap
-Carousel tutorial
-https://www.youtube.com/watch?v=Xbx8N3NGLeM&t=23s
-https://react-slick.neostack.com/docs/get-started
+This is my first portfolio website built using ReactJS, vite, tailwindcss, Bootstrap
+
+download source code:
+npm install : to install dependencies and packages
+npm run dev: open the project
+
+node version: 18.16.0
